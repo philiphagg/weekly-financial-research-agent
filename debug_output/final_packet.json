@@ -1,8 +1,8 @@
 {
   "week_label": "2026-W16",
   "run_metadata": {
-    "started_at_utc": "2026-04-17T08:30:18+00:00",
-    "completed_at_utc": "2026-04-17T08:31:00+00:00",
+    "started_at_utc": "2026-04-17T08:52:38+00:00",
+    "completed_at_utc": "2026-04-17T08:53:08+00:00",
     "week_label": "2026-W16",
     "model": "gpt-5-nano",
     "source_count": 19,
@@ -5168,16 +5168,16 @@
     ]
   },
   "computed_analysis": {
-    "base_case": "Constructive risk appetite with leadership concentrated in AI/crypto/blockchain and related ETFs. Favor strong momentum names and leading themes (e.g., AI, blockchain, quantum computing) while avoiding laggards such as Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (e.g., AMD earnings, Wells Fargo results). Note that data gaps in market snapshot, regime composite, and macro snapshot limit conviction.",
+    "base_case": "Maintain exposure to the strongest momentum names (Coor Service Management Holding AB, Telia Company, Besqab AB Pref B) and overweight leading themes such as VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, and Franklin AI, Metaverse and Blockchain UCITS ETF. Remain cautious on laggards like Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (AMD earnings, WFC results).",
     "key_risks": [
-      "Leadership remains concentrated with narrow breadth, raising concentration and idiosyncratic risk.",
-      "Data gaps: market snapshot, regime composite/latest, and macro snapshot endpoints unavailable.",
-      "Momentum signals show conflicting readings across definitions, tempering conviction."
+      "Leadership remains concentrated rather than broad-based",
+      "Primary market and macro snapshot endpoints are unavailable",
+      "Data gaps reduce confidence in the weekly base case"
     ],
     "what_would_change_my_mind": [
-      "Leadership broadens beyond the current narrow set of leaders.",
-      "Momentum signals align across definitions with no meaningful contradictions.",
-      "Macro backdrop deteriorates (e.g., wider credit spreads or rising volatility) prompting a more cautious stance."
+      "Leadership broadens beyond the current narrow set of leaders",
+      "Signal contradictions dominate the bullish signal mix",
+      "Macro fallback data worsens via wider credit spreads or higher volatility"
     ],
     "source_ids": [
       "market_snapshot",
@@ -5202,7 +5202,7 @@
       "source_type": "market_api",
       "title": "Market snapshot API",
       "url": "http://192.168.1.71:8080/api/v1/market-snapshot",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00",
+      "timestamp_utc": "2026-04-17T08:52:38+00:00",
       "summary": null
     },
     {
@@ -5210,7 +5210,7 @@
       "source_type": "macro_api",
       "title": "Macro snapshot API",
       "url": "http://192.168.1.71:8080/api/v1/macro-snapshot",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00",
+      "timestamp_utc": "2026-04-17T08:52:38+00:00",
       "summary": null
     },
     {
@@ -5218,7 +5218,7 @@
       "source_type": "macro_api",
       "title": "Latest composite regime",
       "url": "http://192.168.1.71:8080/api/regime/composite/latest",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00",
+      "timestamp_utc": "2026-04-17T08:52:38+00:00",
       "summary": null
     },
     {
@@ -5226,7 +5226,7 @@
       "source_type": "macro_api",
       "title": "External series HY_OAS",
       "url": "http://192.168.1.71:8080/api/external-data?seriesName=HY_OAS",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00",
+      "timestamp_utc": "2026-04-17T08:52:38+00:00",
       "summary": null
     },
     {
@@ -5234,7 +5234,7 @@
       "source_type": "macro_api",
       "title": "External series UNEMPLOYMENT_CLAIMS",
       "url": "http://192.168.1.71:8080/api/external-data?seriesName=UNEMPLOYMENT_CLAIMS",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00",
+      "timestamp_utc": "2026-04-17T08:52:38+00:00",
       "summary": null
     },
     {
@@ -5242,7 +5242,7 @@
       "source_type": "macro_api",
       "title": "External series ISM_PMI",
       "url": "http://192.168.1.71:8080/api/external-data?seriesName=ISM_PMI",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00",
+      "timestamp_utc": "2026-04-17T08:52:38+00:00",
       "summary": null
     },
     {
@@ -5250,7 +5250,7 @@
       "source_type": "macro_api",
       "title": "External series VIX",
       "url": "http://192.168.1.71:8080/api/external-data?seriesName=VIX",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00",
+      "timestamp_utc": "2026-04-17T08:52:38+00:00",
       "summary": null
     },
     {
@@ -5258,7 +5258,7 @@
       "source_type": "sector_rotation_api",
       "title": "Sector rotation API",
       "url": "http://192.168.1.71:8080/api/v1/sector-rotation/weekly",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00",
+      "timestamp_utc": "2026-04-17T08:52:38+00:00",
       "summary": null
     },
     {
@@ -5266,7 +5266,7 @@
       "source_type": "momentum_api",
       "title": "Time-series momentum screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/tsmom",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": null
     },
     {
@@ -5274,7 +5274,7 @@
       "source_type": "momentum_api",
       "title": "Price momentum screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/price-momentum",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": null
     },
     {
@@ -5282,7 +5282,7 @@
       "source_type": "momentum_api",
       "title": "Low-volatility screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/low-volatility",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": null
     },
     {
@@ -5290,7 +5290,7 @@
       "source_type": "momentum_api",
       "title": "Multi-factor screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/multi-factor",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": null
     },
     {
@@ -5298,7 +5298,7 @@
       "source_type": "momentum_api",
       "title": "Residual momentum screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/residual-momentum",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": null
     },
     {
@@ -5306,7 +5306,7 @@
       "source_type": "signals_api",
       "title": "Signals API",
       "url": "http://192.168.1.71:8080/api/v1/signals",
-      "timestamp_utc": "2026-04-17T08:30:33+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": null
     },
     {
@@ -5314,7 +5314,7 @@
       "source_type": "web",
       "title": "Here are the 3 big things we're watching in the stock market this week - CNBC",
       "url": "https://www.cnbc.com/2026/04/12/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
-      "timestamp_utc": "2026-04-17T08:30:35+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "Week ahead Monday, April 13 Existing Home Sales at 10 a.m. ET Before the bell: Goldman Sachs (GS) , Fastenal (FAST) Tuesday, April 14 Producer Price Index at 8:30 a.m."
     },
     {
@@ -5322,7 +5322,7 @@
       "source_type": "web",
       "title": "S&P 7,000: Why stocks surged to a new record - Axios",
       "url": "https://www.axios.com/2026/04/15/stocks-iran-consumer-trump",
-      "timestamp_utc": "2026-04-17T08:30:35+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "Zoom in: Starting last week, hedge funds were net buyers of U.S. stocks for the first time in eight weeks, driven by both closing out short bets (where investors bet that stocks will fall) and adding new long positions, per data from Gol..."
     },
     {
@@ -5330,7 +5330,7 @@
       "source_type": "web",
       "title": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments - Investopedia",
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-04152026-11950191",
-      "timestamp_utc": "2026-04-17T08:30:35+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments. Major stock indexes were mixed and little changed in early trading Wednesday, with the S&..."
     },
     {
@@ -5338,7 +5338,7 @@
       "source_type": "web",
       "title": "AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St.",
       "url": "https://247wallst.com/investing/2026/04/16/amd-gains-6-ahead-of-may-earnings-is-the-ai-chip-challenger-finally-ready-to-rival-nvidia/",
-      "timestamp_utc": "2026-04-17T08:30:37+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) stock is up 6% today, rising from $258.12 to $274 and change as a..."
     },
     {
@@ -5346,7 +5346,7 @@
       "source_type": "web",
       "title": "WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks",
       "url": "https://www.tipranks.com/news/wfc-earnings-wells-fargo-stock-slips-on-mixed-q1-results",
-      "timestamp_utc": "2026-04-17T08:30:37+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. Wells Fargo stock was down on Tuesday alongside its latest earnings report."
     }
   ],

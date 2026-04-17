@@ -1,4 +1,4 @@
-from agent_lab.reporting import render_weekly_report
+from agent_lab.rendering.report import render_weekly_report
 
 
 def test_weekly_report_contains_required_sections() -> None:

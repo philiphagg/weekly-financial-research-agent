@@ -5,7 +5,7 @@ from typing import Any
 from langchain.tools import tool
 from tavily import TavilyClient
 
-from agent_lab.config import Settings
+from agent_lab.core.settings import Settings
 
 
 def fetch_web_search(

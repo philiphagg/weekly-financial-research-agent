@@ -1,8 +1,8 @@
 {
   "week_label": "2026-W16",
   "run_metadata": {
-    "started_at_utc": "2026-04-17T08:30:18+00:00",
-    "completed_at_utc": "2026-04-17T08:31:00+00:00",
+    "started_at_utc": "2026-04-17T08:52:38+00:00",
+    "completed_at_utc": "2026-04-17T08:53:08+00:00",
     "week_label": "2026-W16",
     "model": "gpt-5-nano",
     "source_count": 19,
@@ -57998,16 +57998,16 @@
     ]
   },
   "computed_analysis": {
-    "base_case": "Constructive risk appetite with leadership concentrated in AI/crypto/blockchain and related ETFs. Favor strong momentum names and leading themes (e.g., AI, blockchain, quantum computing) while avoiding laggards such as Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (e.g., AMD earnings, Wells Fargo results). Note that data gaps in market snapshot, regime composite, and macro snapshot limit conviction.",
+    "base_case": "Maintain exposure to the strongest momentum names (Coor Service Management Holding AB, Telia Company, Besqab AB Pref B) and overweight leading themes such as VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, and Franklin AI, Metaverse and Blockchain UCITS ETF. Remain cautious on laggards like Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (AMD earnings, WFC results).",
     "key_risks": [
-      "Leadership remains concentrated with narrow breadth, raising concentration and idiosyncratic risk.",
-      "Data gaps: market snapshot, regime composite/latest, and macro snapshot endpoints unavailable.",
-      "Momentum signals show conflicting readings across definitions, tempering conviction."
+      "Leadership remains concentrated rather than broad-based",
+      "Primary market and macro snapshot endpoints are unavailable",
+      "Data gaps reduce confidence in the weekly base case"
     ],
     "what_would_change_my_mind": [
-      "Leadership broadens beyond the current narrow set of leaders.",
-      "Momentum signals align across definitions with no meaningful contradictions.",
-      "Macro backdrop deteriorates (e.g., wider credit spreads or rising volatility) prompting a more cautious stance."
+      "Leadership broadens beyond the current narrow set of leaders",
+      "Signal contradictions dominate the bullish signal mix",
+      "Macro fallback data worsens via wider credit spreads or higher volatility"
     ],
     "source_ids": [
       "market_snapshot",
@@ -58032,105 +58032,105 @@
       "source_type": "market_api",
       "title": "Market snapshot API",
       "url": "http://192.168.1.71:8080/api/v1/market-snapshot",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00"
+      "timestamp_utc": "2026-04-17T08:52:38+00:00"
     },
     {
       "source_id": "macro_snapshot",
       "source_type": "macro_api",
       "title": "Macro snapshot API",
       "url": "http://192.168.1.71:8080/api/v1/macro-snapshot",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00"
+      "timestamp_utc": "2026-04-17T08:52:38+00:00"
     },
     {
       "source_id": "regime_composite_latest",
       "source_type": "macro_api",
       "title": "Latest composite regime",
       "url": "http://192.168.1.71:8080/api/regime/composite/latest",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00"
+      "timestamp_utc": "2026-04-17T08:52:38+00:00"
     },
     {
       "source_id": "external_hy_oas",
       "source_type": "macro_api",
       "title": "External series HY_OAS",
       "url": "http://192.168.1.71:8080/api/external-data?seriesName=HY_OAS",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00"
+      "timestamp_utc": "2026-04-17T08:52:38+00:00"
     },
     {
       "source_id": "external_unemployment_claims",
       "source_type": "macro_api",
       "title": "External series UNEMPLOYMENT_CLAIMS",
       "url": "http://192.168.1.71:8080/api/external-data?seriesName=UNEMPLOYMENT_CLAIMS",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00"
+      "timestamp_utc": "2026-04-17T08:52:38+00:00"
     },
     {
       "source_id": "external_ism_pmi",
       "source_type": "macro_api",
       "title": "External series ISM_PMI",
       "url": "http://192.168.1.71:8080/api/external-data?seriesName=ISM_PMI",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00"
+      "timestamp_utc": "2026-04-17T08:52:38+00:00"
     },
     {
       "source_id": "external_vix",
       "source_type": "macro_api",
       "title": "External series VIX",
       "url": "http://192.168.1.71:8080/api/external-data?seriesName=VIX",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00"
+      "timestamp_utc": "2026-04-17T08:52:38+00:00"
     },
     {
       "source_id": "sector_rotation",
       "source_type": "sector_rotation_api",
       "title": "Sector rotation API",
       "url": "http://192.168.1.71:8080/api/v1/sector-rotation/weekly",
-      "timestamp_utc": "2026-04-17T08:30:18+00:00"
+      "timestamp_utc": "2026-04-17T08:52:38+00:00"
     },
     {
       "source_id": "momentum_time_series",
       "source_type": "momentum_api",
       "title": "Time-series momentum screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/tsmom",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00"
+      "timestamp_utc": "2026-04-17T08:52:53+00:00"
     },
     {
       "source_id": "momentum_price",
       "source_type": "momentum_api",
       "title": "Price momentum screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/price-momentum",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00"
+      "timestamp_utc": "2026-04-17T08:52:53+00:00"
     },
     {
       "source_id": "momentum_low_volatility",
       "source_type": "momentum_api",
       "title": "Low-volatility screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/low-volatility",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00"
+      "timestamp_utc": "2026-04-17T08:52:53+00:00"
     },
     {
       "source_id": "momentum_multi_factor",
       "source_type": "momentum_api",
       "title": "Multi-factor screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/multi-factor",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00"
+      "timestamp_utc": "2026-04-17T08:52:53+00:00"
     },
     {
       "source_id": "momentum_residual",
       "source_type": "momentum_api",
       "title": "Residual momentum screener",
       "url": "http://192.168.1.71:8080/api/v1/screen/residual-momentum",
-      "timestamp_utc": "2026-04-17T08:30:32+00:00"
+      "timestamp_utc": "2026-04-17T08:52:53+00:00"
     },
     {
       "source_id": "signals_api",
       "source_type": "signals_api",
       "title": "Signals API",
       "url": "http://192.168.1.71:8080/api/v1/signals",
-      "timestamp_utc": "2026-04-17T08:30:33+00:00"
+      "timestamp_utc": "2026-04-17T08:52:53+00:00"
     },
     {
       "source_id": "web_weekend_context_1",
       "source_type": "web",
       "title": "Here are the 3 big things we're watching in the stock market this week - CNBC",
       "url": "https://www.cnbc.com/2026/04/12/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
-      "timestamp_utc": "2026-04-17T08:30:35+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "Week ahead Monday, April 13 Existing Home Sales at 10 a.m. ET Before the bell: Goldman Sachs (GS) , Fastenal (FAST) Tuesday, April 14 Producer Price Index at 8:30 a.m."
     },
     {
@@ -58138,7 +58138,7 @@
       "source_type": "web",
       "title": "S&P 7,000: Why stocks surged to a new record - Axios",
       "url": "https://www.axios.com/2026/04/15/stocks-iran-consumer-trump",
-      "timestamp_utc": "2026-04-17T08:30:35+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "Zoom in: Starting last week, hedge funds were net buyers of U.S. stocks for the first time in eight weeks, driven by both closing out short bets (where investors bet that stocks will fall) and adding new long positions, per data from Gol..."
     },
     {
@@ -58146,7 +58146,7 @@
       "source_type": "web",
       "title": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments - Investopedia",
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-04152026-11950191",
-      "timestamp_utc": "2026-04-17T08:30:35+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments. Major stock indexes were mixed and little changed in early trading Wednesday, with the S&..."
     },
     {
@@ -58154,7 +58154,7 @@
       "source_type": "web",
       "title": "AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St.",
       "url": "https://247wallst.com/investing/2026/04/16/amd-gains-6-ahead-of-may-earnings-is-the-ai-chip-challenger-finally-ready-to-rival-nvidia/",
-      "timestamp_utc": "2026-04-17T08:30:37+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) stock is up 6% today, rising from $258.12 to $274 and change as a..."
     },
     {
@@ -58162,7 +58162,7 @@
       "source_type": "web",
       "title": "WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks",
       "url": "https://www.tipranks.com/news/wfc-earnings-wells-fargo-stock-slips-on-mixed-q1-results",
-      "timestamp_utc": "2026-04-17T08:30:37+00:00",
+      "timestamp_utc": "2026-04-17T08:52:53+00:00",
       "summary": "WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. Wells Fargo stock was down on Tuesday alongside its latest earnings report."
     }
   ],
@@ -58309,8 +58309,8 @@
   "final_packet": {
     "week_label": "2026-W16",
     "run_metadata": {
-      "started_at_utc": "2026-04-17T08:30:18+00:00",
-      "completed_at_utc": "2026-04-17T08:31:00+00:00",
+      "started_at_utc": "2026-04-17T08:52:38+00:00",
+      "completed_at_utc": "2026-04-17T08:53:08+00:00",
       "week_label": "2026-W16",
       "model": "gpt-5-nano",
       "source_count": 19,
@@ -63476,16 +63476,16 @@
       ]
     },
     "computed_analysis": {
-      "base_case": "Constructive risk appetite with leadership concentrated in AI/crypto/blockchain and related ETFs. Favor strong momentum names and leading themes (e.g., AI, blockchain, quantum computing) while avoiding laggards such as Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (e.g., AMD earnings, Wells Fargo results). Note that data gaps in market snapshot, regime composite, and macro snapshot limit conviction.",
+      "base_case": "Maintain exposure to the strongest momentum names (Coor Service Management Holding AB, Telia Company, Besqab AB Pref B) and overweight leading themes such as VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, and Franklin AI, Metaverse and Blockchain UCITS ETF. Remain cautious on laggards like Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (AMD earnings, WFC results).",
       "key_risks": [
-        "Leadership remains concentrated with narrow breadth, raising concentration and idiosyncratic risk.",
-        "Data gaps: market snapshot, regime composite/latest, and macro snapshot endpoints unavailable.",
-        "Momentum signals show conflicting readings across definitions, tempering conviction."
+        "Leadership remains concentrated rather than broad-based",
+        "Primary market and macro snapshot endpoints are unavailable",
+        "Data gaps reduce confidence in the weekly base case"
       ],
       "what_would_change_my_mind": [
-        "Leadership broadens beyond the current narrow set of leaders.",
-        "Momentum signals align across definitions with no meaningful contradictions.",
-        "Macro backdrop deteriorates (e.g., wider credit spreads or rising volatility) prompting a more cautious stance."
+        "Leadership broadens beyond the current narrow set of leaders",
+        "Signal contradictions dominate the bullish signal mix",
+        "Macro fallback data worsens via wider credit spreads or higher volatility"
       ],
       "source_ids": [
         "market_snapshot",
@@ -63510,7 +63510,7 @@
         "source_type": "market_api",
         "title": "Market snapshot API",
         "url": "http://192.168.1.71:8080/api/v1/market-snapshot",
-        "timestamp_utc": "2026-04-17T08:30:18+00:00",
+        "timestamp_utc": "2026-04-17T08:52:38+00:00",
         "summary": null
       },
       {
@@ -63518,7 +63518,7 @@
         "source_type": "macro_api",
         "title": "Macro snapshot API",
         "url": "http://192.168.1.71:8080/api/v1/macro-snapshot",
-        "timestamp_utc": "2026-04-17T08:30:18+00:00",
+        "timestamp_utc": "2026-04-17T08:52:38+00:00",
         "summary": null
       },
       {
@@ -63526,7 +63526,7 @@
         "source_type": "macro_api",
         "title": "Latest composite regime",
         "url": "http://192.168.1.71:8080/api/regime/composite/latest",
-        "timestamp_utc": "2026-04-17T08:30:18+00:00",
+        "timestamp_utc": "2026-04-17T08:52:38+00:00",
         "summary": null
       },
       {
@@ -63534,7 +63534,7 @@
         "source_type": "macro_api",
         "title": "External series HY_OAS",
         "url": "http://192.168.1.71:8080/api/external-data?seriesName=HY_OAS",
-        "timestamp_utc": "2026-04-17T08:30:18+00:00",
+        "timestamp_utc": "2026-04-17T08:52:38+00:00",
         "summary": null
       },
       {
@@ -63542,7 +63542,7 @@
         "source_type": "macro_api",
         "title": "External series UNEMPLOYMENT_CLAIMS",
         "url": "http://192.168.1.71:8080/api/external-data?seriesName=UNEMPLOYMENT_CLAIMS",
-        "timestamp_utc": "2026-04-17T08:30:18+00:00",
+        "timestamp_utc": "2026-04-17T08:52:38+00:00",
         "summary": null
       },
       {
@@ -63550,7 +63550,7 @@
         "source_type": "macro_api",
         "title": "External series ISM_PMI",
         "url": "http://192.168.1.71:8080/api/external-data?seriesName=ISM_PMI",
-        "timestamp_utc": "2026-04-17T08:30:18+00:00",
+        "timestamp_utc": "2026-04-17T08:52:38+00:00",
         "summary": null
       },
       {
@@ -63558,7 +63558,7 @@
         "source_type": "macro_api",
         "title": "External series VIX",
         "url": "http://192.168.1.71:8080/api/external-data?seriesName=VIX",
-        "timestamp_utc": "2026-04-17T08:30:18+00:00",
+        "timestamp_utc": "2026-04-17T08:52:38+00:00",
         "summary": null
       },
       {
@@ -63566,7 +63566,7 @@
         "source_type": "sector_rotation_api",
         "title": "Sector rotation API",
         "url": "http://192.168.1.71:8080/api/v1/sector-rotation/weekly",
-        "timestamp_utc": "2026-04-17T08:30:18+00:00",
+        "timestamp_utc": "2026-04-17T08:52:38+00:00",
         "summary": null
       },
       {
@@ -63574,7 +63574,7 @@
         "source_type": "momentum_api",
         "title": "Time-series momentum screener",
         "url": "http://192.168.1.71:8080/api/v1/screen/tsmom",
-        "timestamp_utc": "2026-04-17T08:30:32+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": null
       },
       {
@@ -63582,7 +63582,7 @@
         "source_type": "momentum_api",
         "title": "Price momentum screener",
         "url": "http://192.168.1.71:8080/api/v1/screen/price-momentum",
-        "timestamp_utc": "2026-04-17T08:30:32+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": null
       },
       {
@@ -63590,7 +63590,7 @@
         "source_type": "momentum_api",
         "title": "Low-volatility screener",
         "url": "http://192.168.1.71:8080/api/v1/screen/low-volatility",
-        "timestamp_utc": "2026-04-17T08:30:32+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": null
       },
       {
@@ -63598,7 +63598,7 @@
         "source_type": "momentum_api",
         "title": "Multi-factor screener",
         "url": "http://192.168.1.71:8080/api/v1/screen/multi-factor",
-        "timestamp_utc": "2026-04-17T08:30:32+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": null
       },
       {
@@ -63606,7 +63606,7 @@
         "source_type": "momentum_api",
         "title": "Residual momentum screener",
         "url": "http://192.168.1.71:8080/api/v1/screen/residual-momentum",
-        "timestamp_utc": "2026-04-17T08:30:32+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": null
       },
       {
@@ -63614,7 +63614,7 @@
         "source_type": "signals_api",
         "title": "Signals API",
         "url": "http://192.168.1.71:8080/api/v1/signals",
-        "timestamp_utc": "2026-04-17T08:30:33+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": null
       },
       {
@@ -63622,7 +63622,7 @@
         "source_type": "web",
         "title": "Here are the 3 big things we're watching in the stock market this week - CNBC",
         "url": "https://www.cnbc.com/2026/04/12/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
-        "timestamp_utc": "2026-04-17T08:30:35+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": "Week ahead Monday, April 13 Existing Home Sales at 10 a.m. ET Before the bell: Goldman Sachs (GS) , Fastenal (FAST) Tuesday, April 14 Producer Price Index at 8:30 a.m."
       },
       {
@@ -63630,7 +63630,7 @@
         "source_type": "web",
         "title": "S&P 7,000: Why stocks surged to a new record - Axios",
         "url": "https://www.axios.com/2026/04/15/stocks-iran-consumer-trump",
-        "timestamp_utc": "2026-04-17T08:30:35+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": "Zoom in: Starting last week, hedge funds were net buyers of U.S. stocks for the first time in eight weeks, driven by both closing out short bets (where investors bet that stocks will fall) and adding new long positions, per data from Gol..."
       },
       {
@@ -63638,7 +63638,7 @@
         "source_type": "web",
         "title": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments - Investopedia",
         "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-04152026-11950191",
-        "timestamp_utc": "2026-04-17T08:30:35+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments. Major stock indexes were mixed and little changed in early trading Wednesday, with the S&..."
       },
       {
@@ -63646,7 +63646,7 @@
         "source_type": "web",
         "title": "AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St.",
         "url": "https://247wallst.com/investing/2026/04/16/amd-gains-6-ahead-of-may-earnings-is-the-ai-chip-challenger-finally-ready-to-rival-nvidia/",
-        "timestamp_utc": "2026-04-17T08:30:37+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": "Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) stock is up 6% today, rising from $258.12 to $274 and change as a..."
       },
       {
@@ -63654,7 +63654,7 @@
         "source_type": "web",
         "title": "WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks",
         "url": "https://www.tipranks.com/news/wfc-earnings-wells-fargo-stock-slips-on-mixed-q1-results",
-        "timestamp_utc": "2026-04-17T08:30:37+00:00",
+        "timestamp_utc": "2026-04-17T08:52:53+00:00",
         "summary": "WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. Wells Fargo stock was down on Tuesday alongside its latest earnings report."
       }
     ],
@@ -63799,5 +63799,5 @@
       "Macro snapshot unavailable: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/macro-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")"
     ]
   },
-  "weekly_report": "# Weekly Stock Market Science Report\n\nWeek: 2026-W16\nGenerated: 2026-04-17T08:31:00+00:00\n\n## Executive summary\n- Constructive risk appetite with concentrated leadership\n- HY OAS latest reading is 2.85 on 2026-04-15. VIX latest reading is 18.17 on 2026-04-15.\n- Constructive risk appetite with leadership concentrated in AI/crypto/blockchain and related ETFs. Favor strong momentum names and leading themes (e.g., AI, blockchain, quantum computing) while avoiding laggards such as Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (e.g., AMD earnings, Wells Fargo results). Note that data gaps in market snapshot, regime composite, and macro snapshot limit conviction. (sources: market_snapshot, macro_snapshot, sector_rotation, signals_api, momentum_time_series, momentum_price, momentum_low_volatility, momentum_multi_factor, momentum_residual, web_weekend_context_1, web_weekend_context_2, web_weekend_context_3, web_what_to_watch_2, web_what_to_watch_3)\n\n## Facts\n- Leadership is concentrated in VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, Franklin AI, Metaverse and Blockchain UCITS ETF; while weakness remains in Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, OSEBX Oslo.\n- Momentum leaders include Coor Service Management Holding AB, Telia Company, Besqab AB Pref B, Svedbergs Group AB ser. B, Swedbank AB ser A and the signal block also highlights Lagercrantz Group AB ser B, TF Bank AB, Synsam AB, Cloetta AB ser. B, Öresund, Investment AB.\n- HY OAS moved from 3.08 on 2026-03-03 to 2.85 on 2026-04-15.\n- Favor areas showing strong relative weekly leadership and positive short-term trend, and stay cautious with themes or instruments showing negative week-anchor returns and weak 1-2 week follow-through.\n\n## Interpretation\n- Momentum signals show strong leaders, but there are also conflicts across different momentum definitions that should temper conviction.\n- The signal block leans bullish and supports risk-on positioning where momentum also holds together.\n- Initial claims fallback data is missing; ISM PMI fallback data is missing; VIX latest reading is 18.17.\n\n## Positioning for the week\n- Constructive risk appetite with leadership concentrated in AI/crypto/blockchain and related ETFs. Favor strong momentum names and leading themes (e.g., AI, blockchain, quantum computing) while avoiding laggards such as Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (e.g., AMD earnings, Wells Fargo results). Note that data gaps in market snapshot, regime composite, and macro snapshot limit conviction.\n- Favor areas showing strong relative weekly leadership and positive short-term trend, and stay cautious with themes or instruments showing negative week-anchor returns and weak 1-2 week follow-through.\n\n## How to read the momentum strategies\n- `time_series`: Time-series momentum looks for stocks already trending higher over a longer window and assumes trend persistence can continue.\n- `price`: Price momentum ranks stocks on medium-term relative performance and looks for sustained winners versus the rest of the universe.\n- `low_volatility`: Low-volatility momentum favors names with strong trend behavior but less violent price movement, which can indicate steadier leadership.\n- `multi_factor`: Multi-factor momentum blends momentum with volatility-aware ranking so the result is not driven by a single return measure alone.\n- `residual`: Residual momentum tries to isolate stock-specific strength after removing broad market or beta effects.\n\n## Sector / theme rotation\n- Leading sectors: VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, Franklin AI, Metaverse and Blockchain UCITS ETF, CoinShares XBT Provider Ether Tracker One, ARK Artificial Intelligence & Robotics UCITS ETF, VanEck Semiconductor UCITS ETF, Global X Artificial Intelligence UCITS ETF, iShares S&P 500 Information Technology Sector\n- Lagging sectors: Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, OSEBX Oslo, iShares S&P 500 Utilities Sector, iShares S&P 500 Consumer Staples Sector, Global X Natural Gas ETF, Brent spot, OLJA AVA (sources: sector_rotation)\n\n### Quadrant scatter\n![Sector rotation scatter](./sector_rotation_scatter.svg)\n\n### Category grid\n![Sector rotation category grid](./sector_rotation_grid.svg)\n\n### Sector rotation table\n| Name | Quadrant | Week-anchor | 1W | 2W | Rotation score |\n| --- | --- | --- | --- | --- | --- |\n| VanEck Crypto and Blockchain Innovators UCITS ETF | leading | 11.79% | 12.67% | 23.08% | 0.1431 |\n| VanEck Quantum Computing UCITS ETF | leading | 10.78% | 10.80% | 14.31% | 0.1149 |\n| Franklin AI, Metaverse and Blockchain UCITS ETF | leading | 9.02% | 7.57% | 12.14% | 0.0921 |\n| CoinShares XBT Provider Ether Tracker One | leading | 7.42% | 7.47% | 14.17% | 0.0878 |\n| ARK Artificial Intelligence & Robotics UCITS ETF | leading | 7.89% | 6.84% | 9.36% | 0.0787 |\n| VanEck Semiconductor UCITS ETF | leading | 4.89% | 7.69% | 15.56% | 0.0786 |\n| Global X Artificial Intelligence UCITS ETF | leading | 6.93% | 6.68% | 10.55% | 0.0758 |\n| iShares S&P 500 Information Technology Sector | leading | 6.06% | 6.55% | 9.53% | 0.0690 |\n| Silver | leading | 5.42% | 7.71% | 8.73% | 0.0677 |\n| WisdomTree Physical Silver ETC | leading | 5.18% | 6.87% | 8.85% | 0.0642 |\n| iShares AI Infrastructure UCITS ETF | leading | 5.14% | 5.75% | 10.61% | 0.0641 |\n| VanEck Uranium and Nuclear Technologies UCITS ETF | leading | 6.69% | 5.37% | 6.69% | 0.0630 |\n| OMX Stockholm Small Cap PI | leading | 5.84% | 6.11% | 7.46% | 0.0625 |\n| iShares S&P 500 Consumer Discretionary Sector | leading | 4.23% | 6.44% | 7.62% | 0.0557 |\n| WisdomTree Copper | leading | 4.83% | 5.48% | 7.04% | 0.0547 |\n| OMX Stockholm Consumer Products and Services PI | leading | 3.88% | 5.17% | 8.66% | 0.0522 |\n| L&G ROBO Global Robotics and Automation UCITS ETF | leading | 4.07% | 4.54% | 9.06% | 0.0521 |\n| CoinShares XBT Provider Bitcoin Tracker One | leading | 3.31% | 4.52% | 10.51% | 0.0511 |\n| XACT Svenska Småbolag | leading | 3.41% | 4.09% | 7.42% | 0.0442 |\n| OMX Stockholm Financial Services PI | leading | 2.65% | 3.04% | 6.93% | 0.0362 |\n\n## Momentum leaders and laggards\n- Leaders: Coor Service Management Holding AB, Telia Company, Besqab AB Pref B, Svedbergs Group AB ser. B, Swedbank AB ser A, Scandi Standard AB, Investor AB ser. B, Inission AB ser. B, Investor AB ser. A, Synsam AB\n- Laggards: Truecaller AB ser. B, Hemnet Group AB, IRLAB Therapeutics AB ser. A, Alligator Bioscience AB, Profoto Holding AB, AB Fastator, Image Systems AB, Precise Biometrics AB, Transtema Group AB, KDventures B (sources: momentum_time_series, momentum_price, momentum_low_volatility, momentum_multi_factor, momentum_residual)\n\n## Signals in focus\nThis section highlights which active technical signals confirm the current momentum picture and which names have repeated bullish or bearish setups.\n\n- Synsam AB: signals support the momentum leadership (1 bullish, 0 bearish)\n- Coor Service Management Holding AB: signals support the momentum leadership (2 bullish, 0 bearish)\n- Telia Company: signals support the momentum leadership (1 bullish, 0 bearish)\n- Inission AB ser. B: signals support the momentum leadership (1 bullish, 0 bearish)\n- Scandi Standard AB: signals support the momentum leadership (2 bullish, 0 bearish)\n- Cloetta AB ser. B: multiple bullish signals are active (2)\n- Öresund, Investment AB: multiple bullish signals are active (4)\n- Micro Systemation AB B: multiple bullish signals are active (3)\n- Tele2 AB ser. B: multiple bullish signals are active (3)\n- Hoist Finance AB: multiple bullish signals are active (2) (sources: signals_api)\n\n### Active signal table\n| Name | Signal | Direction | Confidence | Notes |\n| --- | --- | --- | --- | --- |\n| Synsam AB | DONCHIAN_MEAN_REVERSION | bullish | 0.34 | Close below 20d Donchian low — mean reversion entry |\n| Viaplay Group AB ser. A | DONCHIAN_MEAN_REVERSION | bullish | 0.19 | Close below 20d Donchian low — mean reversion entry |\n| Coor Service Management Holding AB | DONCHIAN_MEAN_REVERSION | bullish | 0.08 | Close below 20d Donchian low — mean reversion entry |\n| mySafety Group AB ser. B | DONCHIAN_MEAN_REVERSION | bullish | 0.04 | Close below 20d Donchian low — mean reversion entry |\n| ABB Ltd | FIFTY_TWO_WEEK_HIGH | bullish | n/a | n/a |\n| ABB Ltd | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| AQ Group AB | FIFTY_TWO_WEEK_HIGH | bullish | n/a | n/a |\n| AQ Group AB | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| Acrinova AB ser. A | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| Acrinova AB ser. B | FIFTY_TWO_WEEK_HIGH | bullish | n/a | n/a |\n| Acrinova AB ser. B | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| Alfa Laval AB | FIFTY_TWO_WEEK_HIGH | bullish | n/a | n/a |\n| Alfa Laval AB | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| Annehem Fastigheter AB ser. B | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| AstraZeneca PLC | MEAN_REVERSION | bullish | n/a | n/a |\n\n## Momentum screener detail\nThis section shows the exact ranked names behind each screener so the report carries the actual evidence, not just a compressed summary.\n\n### Time-series momentum screener\nTime-series momentum looks for stocks already trending higher over a longer window and assumes trend persistence can continue.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Cloetta AB ser. B | 2.3899 | 52.40 |\n| 2 | Scandi Standard AB | 2.1880 | 158.60 |\n| 3 | Hoist Finance AB | 1.8386 | 169.00 |\n| 4 | Attendo AB | 1.7284 | 107.60 |\n| 5 | Berner Industrier AB ser. B | 1.7281 | 95.50 |\n| 6 | Coor Service Management Holding AB | 1.7189 | 57.80 |\n| 7 | Lundin Mining Corporation | 1.6257 | 277.40 |\n| 8 | Sandvik AB | 1.6106 | 396.60 |\n| 9 | mySafety Group AB ser. B | 1.6016 | 17.90 |\n| 10 | Axfood AB | 1.5532 | 321.00 |\n| 11 | Tele2 AB ser. B | 1.5530 | 189.45 |\n| 12 | Tele2 AB ser. A | 1.5411 | 192.00 |\n| 13 | Actic Group AB | 1.5010 | 35.05 |\n| 14 | Maha Capital AB | 1.4907 | 12.84 |\n| 15 | Lundin Gold Inc. | 1.4436 | 756.00 |\n| 16 | Telia Company | 1.4414 | 46.54 |\n| 17 | HANZA AB | 1.4239 | 144.40 |\n| 18 | Studsvik AB | 1.3828 | 327.00 |\n| 19 | Acast | 1.3778 | 28.65 |\n| 20 | Saniona AB | 1.3322 | 15.60 |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | IRLAB Therapeutics AB ser. A | -2.8659 | 1.55 |\n| 2 | Profoto Holding AB | -2.4552 | 8.04 |\n| 3 | Arctic Paper S.A. | -2.4407 | 20.39 |\n| 4 | Hemnet Group AB | -2.3287 | 112.50 |\n| 5 | Truecaller AB ser. B | -2.2869 | 10.96 |\n| 6 | Alligator Bioscience AB | -2.2241 | 0.27 |\n| 7 | Gentoo Media Inc. | -2.0555 | 6.55 |\n| 8 | MEKO AB | -1.8249 | 70.40 |\n| 9 | Pricer AB ser. B | -1.8246 | 3.06 |\n| 10 | Yubico AB | -1.8040 | 39.34 |\n| 11 | Isofol Medical AB | -1.7756 | 0.74 |\n| 12 | Vitec Software Group AB ser. B | -1.7493 | 251.00 |\n| 13 | Rottneros AB | -1.7394 | 2.49 |\n| 14 | KABE Group AB ser. B | -1.7170 | 183.50 |\n| 15 | Precise Biometrics AB | -1.6829 | 1.72 |\n| 16 | Image Systems AB | -1.6311 | 0.95 |\n| 17 | Boule Diagnostics AB | -1.5839 | 3.96 |\n| 18 | AB Fastator | -1.5749 | 0.34 |\n| 19 | Xbrane Biopharma AB | -1.5657 | 8.50 |\n| 20 | G5 Entertainment AB | -1.5511 | 58.60 |\n\n### Price momentum screener\nPrice momentum ranks stocks on medium-term relative performance and looks for sustained winners versus the rest of the universe.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Sivers Semiconductors AB | 204.6100 | 21.70 |\n| 2 | Anoto Group AB | 70.8300 | 0.07 |\n| 3 | FM Mattsson AB ser. B | 66.0400 | 98.00 |\n| 4 | Hexatronic Group AB | 65.6800 | 35.85 |\n| 5 | Nokia | 65.4300 | 91.90 |\n| 6 | International Petroleum Corporation | 64.7100 | 239.80 |\n| 7 | Lundin Mining Corporation | 62.8100 | 277.40 |\n| 8 | Cantargia AB | 59.8800 | 4.08 |\n| 9 | Medivir AB | 59.7300 | 2.25 |\n| 10 | Midsona AB ser. B | 58.0600 | 13.25 |\n| 11 | Maha Capital AB | 57.8700 | 12.84 |\n| 12 | Scandi Standard AB | 56.5700 | 158.60 |\n| 13 | Cloetta AB ser. B | 56.4000 | 52.40 |\n| 14 | Episurf Medical AB B | 54.8600 | 0.06 |\n| 15 | Rusta AB | 53.7500 | 101.80 |\n| 16 | Orrön Energy AB | 50.0200 | 7.35 |\n| 17 | Hoist Finance AB | 48.7400 | 169.00 |\n| 18 | Munters Group AB | 48.1700 | 190.80 |\n| 19 | Acast | 47.3400 | 28.65 |\n| 20 | Eniro Group AB | 47.3100 | 0.77 |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Alligator Bioscience AB | -95.9600 | 0.27 |\n| 2 | Wästbygg Gruppen AB ser. B | -84.1900 | 1.27 |\n| 3 | Xbrane Biopharma AB | -80.5100 | 8.50 |\n| 4 | Yubico AB | -74.2900 | 39.34 |\n| 5 | Truecaller AB ser. B | -73.7700 | 10.96 |\n| 6 | Oncopeptides AB | -73.6800 | 1.40 |\n| 7 | KDventures B | -71.9800 | 0.26 |\n| 8 | Nanologica AB | -66.1700 | 0.39 |\n| 9 | Transtema Group AB | -65.6200 | 4.40 |\n| 10 | Netel Holding AB | -60.3500 | 4.24 |\n| 11 | Vivesto AB | -59.4300 | 0.08 |\n| 12 | Nobia AB | -57.9500 | 1.81 |\n| 13 | AB Fastator | -57.2600 | 0.34 |\n| 14 | Active Biotech AB | -57.2400 | 0.07 |\n| 15 | Immunovia AB | -56.5300 | 0.22 |\n| 16 | Hemnet Group AB | -54.9800 | 112.50 |\n| 17 | Profoto Holding AB | -54.4600 | 8.04 |\n| 18 | Xspray Pharma AB | -50.5000 | 26.80 |\n| 19 | Image Systems AB | -48.8600 | 0.95 |\n| 20 | IRLAB Therapeutics AB ser. A | -48.5600 | 1.55 |\n\n### Low-volatility screener\nLow-volatility momentum favors names with strong trend behavior but less violent price movement, which can indicate steadier leadership.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Volati AB Pref | 95.2381 | n/a |\n| 2 | NP3 Fastigheter AB Pref | 58.4795 | n/a |\n| 3 | Fastighetsbolaget Emilshus AB Pref | 49.2611 | n/a |\n| 4 | Besqab AB Pref B | 48.7805 | n/a |\n| 5 | Sagax AB D | 48.3092 | n/a |\n| 6 | Fastpartner AB ser. D | 42.9185 | n/a |\n| 7 | Traction AB ser. B | 39.2157 | n/a |\n| 8 | Corem Property Group AB Pref | 36.9004 | n/a |\n| 9 | Morrow Bank | 32.8947 | n/a |\n| 10 | Sensys Gatso Group AB | 30.8642 | n/a |\n| 11 | Prisma Properties AB | 28.8184 | n/a |\n| 12 | Dedicare AB ser. B | 28.6533 | n/a |\n| 13 | Softronic AB ser. B | 28.3286 | n/a |\n| 14 | Corem Property Group AB ser. D | 28.2486 | n/a |\n| 15 | Holmen AB ser. A | 27.1739 | n/a |\n| 16 | KlaraBo Sverige AB ser. B | 26.5957 | n/a |\n| 17 | Fabege AB | 26.3158 | n/a |\n| 18 | CellaVision AB | 26.1780 | n/a |\n| 19 | Holmen AB ser. B | 25.9067 | n/a |\n| 20 | Viva Wine | 25.5102 | n/a |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Active Biotech AB | 1.0868 | n/a |\n| 2 | Oncopeptides AB | 1.0925 | n/a |\n| 3 | Sivers Semiconductors AB | 1.3443 | n/a |\n| 4 | Medivir AB | 1.3686 | n/a |\n| 5 | Cantargia AB | 2.5189 | n/a |\n| 6 | Anoto Group AB | 2.5445 | n/a |\n| 7 | Alligator Bioscience AB | 2.7427 | n/a |\n| 8 | Maha Capital AB | 2.9121 | n/a |\n| 9 | Episurf Medical AB B | 3.3818 | n/a |\n| 10 | Xspray Pharma AB | 3.4130 | n/a |\n| 11 | Nanologica AB | 3.5958 | n/a |\n| 12 | Nelly Group AB | 3.6179 | n/a |\n| 13 | Tobii AB | 3.6324 | n/a |\n| 14 | Actic Group AB | 3.6941 | n/a |\n| 15 | Xbrane Biopharma AB | 3.8285 | n/a |\n| 16 | Immunovia AB | 3.9448 | n/a |\n| 17 | Stillfront Group AB | 4.2517 | n/a |\n| 18 | Orexo AB | 4.3328 | n/a |\n| 19 | Viaplay Group AB ser. A | 4.6147 | n/a |\n| 20 | Gruvaktiebolaget Viscaria | 4.6232 | n/a |\n\n### Multi-factor screener\nMulti-factor momentum blends momentum with volatility-aware ranking so the result is not driven by a single return measure alone.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Investor AB ser. B | 0.9045 | 376.80 |\n| 2 | Investor AB ser. A | 0.9007 | 374.00 |\n| 3 | Telia Company | 0.8921 | 46.54 |\n| 4 | Coor Service Management Holding AB | 0.8821 | 57.80 |\n| 5 | Besqab AB Pref B | 0.8710 | 99.00 |\n| 6 | Alfa Laval AB | 0.8685 | 559.20 |\n| 7 | Svedbergs Group AB ser. B | 0.8685 | 63.90 |\n| 8 | Svolder AB ser. A | 0.8648 | 85.00 |\n| 9 | Nordnet AB | 0.8610 | 346.40 |\n| 10 | Securitas AB ser. B | 0.8573 | 170.50 |\n| 11 | Swedbank AB ser A | 0.8511 | 335.40 |\n| 12 | Inission AB ser. B | 0.8462 | 62.40 |\n| 13 | BioGaia AB ser. B | 0.8449 | 120.60 |\n| 14 | Nordea Bank Abp | 0.8387 | 173.50 |\n| 15 | Synsam AB | 0.8325 | 62.70 |\n| 16 | Industrivärden, AB ser. C | 0.8288 | 493.50 |\n| 17 | Industrivärden, AB ser. A | 0.8275 | 497.20 |\n| 18 | Prisma Properties AB | 0.8263 | 23.80 |\n| 19 | Axfood AB | 0.8226 | 321.00 |\n| 20 | Scandi Standard AB | 0.8226 | 158.60 |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Oncopeptides AB | 0.0074 | 1.40 |\n| 2 | Alligator Bioscience AB | 0.0074 | 0.27 |\n| 3 | Active Biotech AB | 0.0161 | 0.07 |\n| 4 | Xbrane Biopharma AB | 0.0199 | 8.50 |\n| 5 | Nanologica AB | 0.0211 | 0.39 |\n| 6 | Wästbygg Gruppen AB ser. B | 0.0310 | 1.27 |\n| 7 | Xspray Pharma AB | 0.0323 | 26.80 |\n| 8 | Immunovia AB | 0.0360 | 0.22 |\n| 9 | Tobii AB | 0.0422 | 1.92 |\n| 10 | Stillfront Group AB | 0.0571 | 4.72 |\n| 11 | Netel Holding AB | 0.0620 | 4.24 |\n| 12 | Fasadgruppen Group AB | 0.0720 | 21.70 |\n| 13 | Orexo AB | 0.0744 | 20.50 |\n| 14 | KDventures B | 0.0769 | 0.26 |\n| 15 | Nelly Group AB | 0.0819 | 69.35 |\n| 16 | PowerCell Sweden AB | 0.0844 | 24.10 |\n| 17 | Nobia AB | 0.0868 | 1.81 |\n| 18 | Net Insight AB ser. B | 0.0868 | 2.55 |\n| 19 | Mendus AB | 0.0931 | 4.92 |\n| 20 | Dometic Group AB | 0.0955 | 30.20 |\n\n### Residual momentum screener\nResidual momentum tries to isolate stock-specific strength after removing broad market or beta effects.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Lundin Mining Corporation | 0.8893 | 277.40 |\n| 2 | Coor Service Management Holding AB | 0.8363 | 57.80 |\n| 3 | Sandvik AB | 0.8353 | 396.60 |\n| 4 | Scandi Standard AB | 0.7844 | 158.60 |\n| 5 | Hoist Finance AB | 0.7114 | 169.00 |\n| 6 | Cloetta AB ser. B | 0.6654 | 52.40 |\n| 7 | Attendo AB | 0.6183 | 107.60 |\n| 8 | Swedbank AB ser A | 0.6032 | 335.40 |\n| 9 | ABB Ltd | 0.5802 | 851.80 |\n| 10 | HANZA AB | 0.5759 | 144.40 |\n| 11 | Svedbergs Group AB ser. B | 0.5578 | 63.90 |\n| 12 | Nordea Bank Abp | 0.5566 | 173.50 |\n| 13 | Lundin Gold Inc. | 0.5487 | 756.00 |\n| 14 | Synsam AB | 0.5443 | 62.70 |\n| 15 | FM Mattsson AB ser. B | 0.5402 | 98.00 |\n| 16 | Studsvik AB | 0.5262 | 327.00 |\n| 17 | Telia Company | 0.4975 | 46.54 |\n| 18 | Tele2 AB ser. B | 0.4851 | 189.45 |\n| 19 | Besqab AB Pref B | 0.4824 | 99.00 |\n| 20 | Tele2 AB ser. A | 0.4797 | 192.00 |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Hemnet Group AB | -1.2839 | 112.50 |\n| 2 | Latour, Investmentab. ser. B | -1.1309 | 228.20 |\n| 3 | Truecaller AB ser. B | -1.0084 | 10.96 |\n| 4 | Image Systems AB | -0.9617 | 0.95 |\n| 5 | IRLAB Therapeutics AB ser. A | -0.9563 | 1.55 |\n| 6 | Precise Biometrics AB | -0.9522 | 1.72 |\n| 7 | AB Fastator | -0.8707 | 0.34 |\n| 8 | SWECO AB ser. B | -0.8020 | 147.00 |\n| 9 | SWECO AB ser. A | -0.7951 | 146.50 |\n| 10 | Profoto Holding AB | -0.7923 | 8.04 |\n| 11 | AFRY AB | -0.7671 | 128.70 |\n| 12 | BE Group AB | -0.7441 | 26.00 |\n| 13 | Vitec Software Group AB ser. B | -0.7329 | 251.00 |\n| 14 | KABE Group AB ser. B | -0.7286 | 183.50 |\n| 15 | Arctic Paper S.A. | -0.7278 | 20.39 |\n| 16 | Garo AB | -0.7193 | 11.52 |\n| 17 | Transtema Group AB | -0.7108 | 4.40 |\n| 18 | Stockwik Förvaltning AB | -0.6923 | 17.60 |\n| 19 | MEKO AB | -0.6754 | 70.40 |\n| 20 | KDventures B | -0.6679 | 0.26 |\n\n## Macro context notes\n- `HY_OAS`: HY_OAS means High Yield Option-Adjusted Spread. It tracks the extra yield demanded for lower-quality corporate debt, and wider spreads usually point to rising stress or tighter financial conditions.\n- `VIX`: VIX is the CBOE Volatility Index. It is an options-implied volatility measure for US equities, and sharp increases usually signal more fear and demand for downside protection.\n\n## VIX chart\n![VIX chart](./vix_chart.svg)\n\n## Weekend context / what happened\n- Here are the 3 big things we're watching in the stock market this week - CNBC: Week ahead Monday, April 13 Existing Home Sales at 10 a.m. ET Before the bell: Goldman Sachs (GS) , Fastenal (FAST) Tuesday, April 14 Producer Price Index at 8:30 a.m. [web_weekend_context_1]\n- S&P 7,000: Why stocks surged to a new record - Axios: Zoom in: Starting last week, hedge funds were net buyers of U.S. stocks for the first time in eight weeks, driven by both closing out short bets (where investors bet that stocks will fall) and adding new long positions, per data from Gol... [web_weekend_context_2]\n- Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments - Investopedia: Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments. Major stock indexes were mixed and little changed in early trading Wednesday, with the S&... [web_weekend_context_3]\n\n## What to watch this week\n- AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St.: Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) stock is up 6% today, rising from $258.12 to $274 and change as a... [web_what_to_watch_2]\n- WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks: WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. Wells Fargo stock was down on Tuesday alongside its latest earnings report. [web_what_to_watch_3]\n\n## Risks / uncertainty\n- Leadership remains concentrated with narrow breadth, raising concentration and idiosyncratic risk.\n- Data gaps: market snapshot, regime composite/latest, and macro snapshot endpoints unavailable.\n- Momentum signals show conflicting readings across definitions, tempering conviction.\n- Market snapshot unavailable: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/market-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")\n- Regime fallback unavailable: HTTPStatusError(\"Server error '500 ' for url 'http://192.168.1.71:8080/api/regime/composite/latest'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500\")\n- Macro snapshot unavailable: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/macro-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")\n\n## What would change my mind\n- Leadership broadens beyond the current narrow set of leaders.\n- Momentum signals align across definitions with no meaningful contradictions.\n- Macro backdrop deteriorates (e.g., wider credit spreads or rising volatility) prompting a more cautious stance.\n\n## Sources\n- [market_snapshot] Market snapshot API (market_api) - Market snapshot API failed: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/market-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\") - http://192.168.1.71:8080/api/v1/market-snapshot\n- [macro_snapshot] Macro snapshot API (macro_api) - Primary macro snapshot API failed, fallback macro sources were attempted: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/macro-snapshot'\\nFor more information check: https://developer.mo... - http://192.168.1.71:8080/api/v1/macro-snapshot\n- [regime_composite_latest] Latest composite regime (macro_api) - Latest regime composite request failed: HTTPStatusError(\"Server error '500 ' for url 'http://192.168.1.71:8080/api/regime/composite/latest'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTT... - http://192.168.1.71:8080/api/regime/composite/latest\n- [external_hy_oas] External series HY_OAS (macro_api) - External series HY_OAS returned 27 points. - http://192.168.1.71:8080/api/external-data?seriesName=HY_OAS\n- [external_unemployment_claims] External series UNEMPLOYMENT_CLAIMS (macro_api) - External series UNEMPLOYMENT_CLAIMS returned 0 points. - http://192.168.1.71:8080/api/external-data?seriesName=UNEMPLOYMENT_CLAIMS\n- [external_ism_pmi] External series ISM_PMI (macro_api) - External series ISM_PMI returned 0 points. - http://192.168.1.71:8080/api/external-data?seriesName=ISM_PMI\n- [external_vix] External series VIX (macro_api) - External series VIX returned 26 points. - http://192.168.1.71:8080/api/external-data?seriesName=VIX\n- [sector_rotation] Sector rotation API (sector_rotation_api) - Sector rotation API returned 52 instruments for weekly analysis. - http://192.168.1.71:8080/api/v1/sector-rotation/weekly\n- [momentum_time_series] Time-series momentum screener (momentum_api) - Momentum screen 'time_series' succeeded. - http://192.168.1.71:8080/api/v1/screen/tsmom\n- [momentum_price] Price momentum screener (momentum_api) - Momentum screen 'price' succeeded. - http://192.168.1.71:8080/api/v1/screen/price-momentum\n- [momentum_low_volatility] Low-volatility screener (momentum_api) - Momentum screen 'low_volatility' succeeded. - http://192.168.1.71:8080/api/v1/screen/low-volatility\n- [momentum_multi_factor] Multi-factor screener (momentum_api) - Momentum screen 'multi_factor' succeeded. - http://192.168.1.71:8080/api/v1/screen/multi-factor\n- [momentum_residual] Residual momentum screener (momentum_api) - Momentum screen 'residual' succeeded. - http://192.168.1.71:8080/api/v1/screen/residual-momentum\n- [signals_api] Signals API (signals_api) - Signals API returned 99 active stock signals. - http://192.168.1.71:8080/api/v1/signals\n- [web_weekend_context_1] Here are the 3 big things we're watching in the stock market this week - CNBC (web) - Week ahead Monday, April 13 Existing Home Sales at 10 a.m. - https://www.cnbc.com/2026/04/12/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html\n- [web_weekend_context_2] S&P 7,000: Why stocks surged to a new record - Axios (web) - Zoom in: Starting last week, hedge funds were net buyers of U.S. - https://www.axios.com/2026/04/15/stocks-iran-consumer-trump\n- [web_weekend_context_3] Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments - Investopedia (web) - Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments. - https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-04152026-11950191\n- [web_what_to_watch_2] AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St. (web) - Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. - https://247wallst.com/investing/2026/04/16/amd-gains-6-ahead-of-may-earnings-is-the-ai-chip-challenger-finally-ready-to-rival-nvidia/\n- [web_what_to_watch_3] WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks (web) - WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. - https://www.tipranks.com/news/wfc-earnings-wells-fargo-stock-slips-on-mixed-q1-results\n"
+  "weekly_report": "# Weekly Stock Market Science Report\n\nWeek: 2026-W16\nGenerated: 2026-04-17T08:53:08+00:00\n\n## Executive summary\n- Constructive risk appetite with concentrated leadership\n- HY OAS latest reading is 2.85 on 2026-04-15. VIX latest reading is 18.17 on 2026-04-15.\n- Maintain exposure to the strongest momentum names (Coor Service Management Holding AB, Telia Company, Besqab AB Pref B) and overweight leading themes such as VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, and Franklin AI, Metaverse and Blockchain UCITS ETF. Remain cautious on laggards like Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (AMD earnings, WFC results). (sources: market_snapshot, macro_snapshot, sector_rotation, signals_api, momentum_time_series, momentum_price, momentum_low_volatility, momentum_multi_factor, momentum_residual, web_weekend_context_1, web_weekend_context_2, web_weekend_context_3, web_what_to_watch_2, web_what_to_watch_3)\n\n## Facts\n- Leadership is concentrated in VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, Franklin AI, Metaverse and Blockchain UCITS ETF; while weakness remains in Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, OSEBX Oslo.\n- Momentum leaders include Coor Service Management Holding AB, Telia Company, Besqab AB Pref B, Svedbergs Group AB ser. B, Swedbank AB ser A and the signal block also highlights Lagercrantz Group AB ser B, TF Bank AB, Synsam AB, Cloetta AB ser. B, Öresund, Investment AB.\n- HY OAS moved from 3.08 on 2026-03-03 to 2.85 on 2026-04-15.\n- Favor areas showing strong relative weekly leadership and positive short-term trend, and stay cautious with themes or instruments showing negative week-anchor returns and weak 1-2 week follow-through.\n\n## Interpretation\n- Momentum signals show strong leaders, but there are also conflicts across different momentum definitions that should temper conviction.\n- The signal block leans bullish and supports risk-on positioning where momentum also holds together.\n- Initial claims fallback data is missing; ISM PMI fallback data is missing; VIX latest reading is 18.17.\n\n## Positioning for the week\n- Maintain exposure to the strongest momentum names (Coor Service Management Holding AB, Telia Company, Besqab AB Pref B) and overweight leading themes such as VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, and Franklin AI, Metaverse and Blockchain UCITS ETF. Remain cautious on laggards like Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (AMD earnings, WFC results).\n- Favor areas showing strong relative weekly leadership and positive short-term trend, and stay cautious with themes or instruments showing negative week-anchor returns and weak 1-2 week follow-through.\n\n## How to read the momentum strategies\n- `time_series`: Time-series momentum looks for stocks already trending higher over a longer window and assumes trend persistence can continue.\n- `price`: Price momentum ranks stocks on medium-term relative performance and looks for sustained winners versus the rest of the universe.\n- `low_volatility`: Low-volatility momentum favors names with strong trend behavior but less violent price movement, which can indicate steadier leadership.\n- `multi_factor`: Multi-factor momentum blends momentum with volatility-aware ranking so the result is not driven by a single return measure alone.\n- `residual`: Residual momentum tries to isolate stock-specific strength after removing broad market or beta effects.\n\n## Sector / theme rotation\n- Leading sectors: VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, Franklin AI, Metaverse and Blockchain UCITS ETF, CoinShares XBT Provider Ether Tracker One, ARK Artificial Intelligence & Robotics UCITS ETF, VanEck Semiconductor UCITS ETF, Global X Artificial Intelligence UCITS ETF, iShares S&P 500 Information Technology Sector\n- Lagging sectors: Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, OSEBX Oslo, iShares S&P 500 Utilities Sector, iShares S&P 500 Consumer Staples Sector, Global X Natural Gas ETF, Brent spot, OLJA AVA (sources: sector_rotation)\n\n### Quadrant scatter\n![Sector rotation scatter](./sector_rotation_scatter.svg)\n\n### Category grid\n![Sector rotation category grid](./sector_rotation_grid.svg)\n\n### Sector rotation table\n| Name | Quadrant | Week-anchor | 1W | 2W | Rotation score |\n| --- | --- | --- | --- | --- | --- |\n| VanEck Crypto and Blockchain Innovators UCITS ETF | leading | 11.79% | 12.67% | 23.08% | 0.1431 |\n| VanEck Quantum Computing UCITS ETF | leading | 10.78% | 10.80% | 14.31% | 0.1149 |\n| Franklin AI, Metaverse and Blockchain UCITS ETF | leading | 9.02% | 7.57% | 12.14% | 0.0921 |\n| CoinShares XBT Provider Ether Tracker One | leading | 7.42% | 7.47% | 14.17% | 0.0878 |\n| ARK Artificial Intelligence & Robotics UCITS ETF | leading | 7.89% | 6.84% | 9.36% | 0.0787 |\n| VanEck Semiconductor UCITS ETF | leading | 4.89% | 7.69% | 15.56% | 0.0786 |\n| Global X Artificial Intelligence UCITS ETF | leading | 6.93% | 6.68% | 10.55% | 0.0758 |\n| iShares S&P 500 Information Technology Sector | leading | 6.06% | 6.55% | 9.53% | 0.0690 |\n| Silver | leading | 5.42% | 7.71% | 8.73% | 0.0677 |\n| WisdomTree Physical Silver ETC | leading | 5.18% | 6.87% | 8.85% | 0.0642 |\n| iShares AI Infrastructure UCITS ETF | leading | 5.14% | 5.75% | 10.61% | 0.0641 |\n| VanEck Uranium and Nuclear Technologies UCITS ETF | leading | 6.69% | 5.37% | 6.69% | 0.0630 |\n| OMX Stockholm Small Cap PI | leading | 5.84% | 6.11% | 7.46% | 0.0625 |\n| iShares S&P 500 Consumer Discretionary Sector | leading | 4.23% | 6.44% | 7.62% | 0.0557 |\n| WisdomTree Copper | leading | 4.83% | 5.48% | 7.04% | 0.0547 |\n| OMX Stockholm Consumer Products and Services PI | leading | 3.88% | 5.17% | 8.66% | 0.0522 |\n| L&G ROBO Global Robotics and Automation UCITS ETF | leading | 4.07% | 4.54% | 9.06% | 0.0521 |\n| CoinShares XBT Provider Bitcoin Tracker One | leading | 3.31% | 4.52% | 10.51% | 0.0511 |\n| XACT Svenska Småbolag | leading | 3.41% | 4.09% | 7.42% | 0.0442 |\n| OMX Stockholm Financial Services PI | leading | 2.65% | 3.04% | 6.93% | 0.0362 |\n\n## Momentum leaders and laggards\n- Leaders: Coor Service Management Holding AB, Telia Company, Besqab AB Pref B, Svedbergs Group AB ser. B, Swedbank AB ser A, Scandi Standard AB, Investor AB ser. B, Inission AB ser. B, Investor AB ser. A, Synsam AB\n- Laggards: Truecaller AB ser. B, Hemnet Group AB, IRLAB Therapeutics AB ser. A, Alligator Bioscience AB, Profoto Holding AB, AB Fastator, Image Systems AB, Precise Biometrics AB, Transtema Group AB, KDventures B (sources: momentum_time_series, momentum_price, momentum_low_volatility, momentum_multi_factor, momentum_residual)\n\n## Signals in focus\nThis section highlights which active technical signals confirm the current momentum picture and which names have repeated bullish or bearish setups.\n\n- Synsam AB: signals support the momentum leadership (1 bullish, 0 bearish)\n- Coor Service Management Holding AB: signals support the momentum leadership (2 bullish, 0 bearish)\n- Telia Company: signals support the momentum leadership (1 bullish, 0 bearish)\n- Inission AB ser. B: signals support the momentum leadership (1 bullish, 0 bearish)\n- Scandi Standard AB: signals support the momentum leadership (2 bullish, 0 bearish)\n- Cloetta AB ser. B: multiple bullish signals are active (2)\n- Öresund, Investment AB: multiple bullish signals are active (4)\n- Micro Systemation AB B: multiple bullish signals are active (3)\n- Tele2 AB ser. B: multiple bullish signals are active (3)\n- Hoist Finance AB: multiple bullish signals are active (2) (sources: signals_api)\n\n### Active signal table\n| Name | Signal | Direction | Confidence | Notes |\n| --- | --- | --- | --- | --- |\n| Synsam AB | DONCHIAN_MEAN_REVERSION | bullish | 0.34 | Close below 20d Donchian low — mean reversion entry |\n| Viaplay Group AB ser. A | DONCHIAN_MEAN_REVERSION | bullish | 0.19 | Close below 20d Donchian low — mean reversion entry |\n| Coor Service Management Holding AB | DONCHIAN_MEAN_REVERSION | bullish | 0.08 | Close below 20d Donchian low — mean reversion entry |\n| mySafety Group AB ser. B | DONCHIAN_MEAN_REVERSION | bullish | 0.04 | Close below 20d Donchian low — mean reversion entry |\n| ABB Ltd | FIFTY_TWO_WEEK_HIGH | bullish | n/a | n/a |\n| ABB Ltd | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| AQ Group AB | FIFTY_TWO_WEEK_HIGH | bullish | n/a | n/a |\n| AQ Group AB | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| Acrinova AB ser. A | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| Acrinova AB ser. B | FIFTY_TWO_WEEK_HIGH | bullish | n/a | n/a |\n| Acrinova AB ser. B | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| Alfa Laval AB | FIFTY_TWO_WEEK_HIGH | bullish | n/a | n/a |\n| Alfa Laval AB | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| Annehem Fastigheter AB ser. B | HUNDRED_DAY_HIGH | bullish | n/a | n/a |\n| AstraZeneca PLC | MEAN_REVERSION | bullish | n/a | n/a |\n\n## Momentum screener detail\nThis section shows the exact ranked names behind each screener so the report carries the actual evidence, not just a compressed summary.\n\n### Time-series momentum screener\nTime-series momentum looks for stocks already trending higher over a longer window and assumes trend persistence can continue.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Cloetta AB ser. B | 2.3899 | 52.40 |\n| 2 | Scandi Standard AB | 2.1880 | 158.60 |\n| 3 | Hoist Finance AB | 1.8386 | 169.00 |\n| 4 | Attendo AB | 1.7284 | 107.60 |\n| 5 | Berner Industrier AB ser. B | 1.7281 | 95.50 |\n| 6 | Coor Service Management Holding AB | 1.7189 | 57.80 |\n| 7 | Lundin Mining Corporation | 1.6257 | 277.40 |\n| 8 | Sandvik AB | 1.6106 | 396.60 |\n| 9 | mySafety Group AB ser. B | 1.6016 | 17.90 |\n| 10 | Axfood AB | 1.5532 | 321.00 |\n| 11 | Tele2 AB ser. B | 1.5530 | 189.45 |\n| 12 | Tele2 AB ser. A | 1.5411 | 192.00 |\n| 13 | Actic Group AB | 1.5010 | 35.05 |\n| 14 | Maha Capital AB | 1.4907 | 12.84 |\n| 15 | Lundin Gold Inc. | 1.4436 | 756.00 |\n| 16 | Telia Company | 1.4414 | 46.54 |\n| 17 | HANZA AB | 1.4239 | 144.40 |\n| 18 | Studsvik AB | 1.3828 | 327.00 |\n| 19 | Acast | 1.3778 | 28.65 |\n| 20 | Saniona AB | 1.3322 | 15.60 |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | IRLAB Therapeutics AB ser. A | -2.8659 | 1.55 |\n| 2 | Profoto Holding AB | -2.4552 | 8.04 |\n| 3 | Arctic Paper S.A. | -2.4407 | 20.39 |\n| 4 | Hemnet Group AB | -2.3287 | 112.50 |\n| 5 | Truecaller AB ser. B | -2.2869 | 10.96 |\n| 6 | Alligator Bioscience AB | -2.2241 | 0.27 |\n| 7 | Gentoo Media Inc. | -2.0555 | 6.55 |\n| 8 | MEKO AB | -1.8249 | 70.40 |\n| 9 | Pricer AB ser. B | -1.8246 | 3.06 |\n| 10 | Yubico AB | -1.8040 | 39.34 |\n| 11 | Isofol Medical AB | -1.7756 | 0.74 |\n| 12 | Vitec Software Group AB ser. B | -1.7493 | 251.00 |\n| 13 | Rottneros AB | -1.7394 | 2.49 |\n| 14 | KABE Group AB ser. B | -1.7170 | 183.50 |\n| 15 | Precise Biometrics AB | -1.6829 | 1.72 |\n| 16 | Image Systems AB | -1.6311 | 0.95 |\n| 17 | Boule Diagnostics AB | -1.5839 | 3.96 |\n| 18 | AB Fastator | -1.5749 | 0.34 |\n| 19 | Xbrane Biopharma AB | -1.5657 | 8.50 |\n| 20 | G5 Entertainment AB | -1.5511 | 58.60 |\n\n### Price momentum screener\nPrice momentum ranks stocks on medium-term relative performance and looks for sustained winners versus the rest of the universe.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Sivers Semiconductors AB | 204.6100 | 21.70 |\n| 2 | Anoto Group AB | 70.8300 | 0.07 |\n| 3 | FM Mattsson AB ser. B | 66.0400 | 98.00 |\n| 4 | Hexatronic Group AB | 65.6800 | 35.85 |\n| 5 | Nokia | 65.4300 | 91.90 |\n| 6 | International Petroleum Corporation | 64.7100 | 239.80 |\n| 7 | Lundin Mining Corporation | 62.8100 | 277.40 |\n| 8 | Cantargia AB | 59.8800 | 4.08 |\n| 9 | Medivir AB | 59.7300 | 2.25 |\n| 10 | Midsona AB ser. B | 58.0600 | 13.25 |\n| 11 | Maha Capital AB | 57.8700 | 12.84 |\n| 12 | Scandi Standard AB | 56.5700 | 158.60 |\n| 13 | Cloetta AB ser. B | 56.4000 | 52.40 |\n| 14 | Episurf Medical AB B | 54.8600 | 0.06 |\n| 15 | Rusta AB | 53.7500 | 101.80 |\n| 16 | Orrön Energy AB | 50.0200 | 7.35 |\n| 17 | Hoist Finance AB | 48.7400 | 169.00 |\n| 18 | Munters Group AB | 48.1700 | 190.80 |\n| 19 | Acast | 47.3400 | 28.65 |\n| 20 | Eniro Group AB | 47.3100 | 0.77 |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Alligator Bioscience AB | -95.9600 | 0.27 |\n| 2 | Wästbygg Gruppen AB ser. B | -84.1900 | 1.27 |\n| 3 | Xbrane Biopharma AB | -80.5100 | 8.50 |\n| 4 | Yubico AB | -74.2900 | 39.34 |\n| 5 | Truecaller AB ser. B | -73.7700 | 10.96 |\n| 6 | Oncopeptides AB | -73.6800 | 1.40 |\n| 7 | KDventures B | -71.9800 | 0.26 |\n| 8 | Nanologica AB | -66.1700 | 0.39 |\n| 9 | Transtema Group AB | -65.6200 | 4.40 |\n| 10 | Netel Holding AB | -60.3500 | 4.24 |\n| 11 | Vivesto AB | -59.4300 | 0.08 |\n| 12 | Nobia AB | -57.9500 | 1.81 |\n| 13 | AB Fastator | -57.2600 | 0.34 |\n| 14 | Active Biotech AB | -57.2400 | 0.07 |\n| 15 | Immunovia AB | -56.5300 | 0.22 |\n| 16 | Hemnet Group AB | -54.9800 | 112.50 |\n| 17 | Profoto Holding AB | -54.4600 | 8.04 |\n| 18 | Xspray Pharma AB | -50.5000 | 26.80 |\n| 19 | Image Systems AB | -48.8600 | 0.95 |\n| 20 | IRLAB Therapeutics AB ser. A | -48.5600 | 1.55 |\n\n### Low-volatility screener\nLow-volatility momentum favors names with strong trend behavior but less violent price movement, which can indicate steadier leadership.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Volati AB Pref | 95.2381 | n/a |\n| 2 | NP3 Fastigheter AB Pref | 58.4795 | n/a |\n| 3 | Fastighetsbolaget Emilshus AB Pref | 49.2611 | n/a |\n| 4 | Besqab AB Pref B | 48.7805 | n/a |\n| 5 | Sagax AB D | 48.3092 | n/a |\n| 6 | Fastpartner AB ser. D | 42.9185 | n/a |\n| 7 | Traction AB ser. B | 39.2157 | n/a |\n| 8 | Corem Property Group AB Pref | 36.9004 | n/a |\n| 9 | Morrow Bank | 32.8947 | n/a |\n| 10 | Sensys Gatso Group AB | 30.8642 | n/a |\n| 11 | Prisma Properties AB | 28.8184 | n/a |\n| 12 | Dedicare AB ser. B | 28.6533 | n/a |\n| 13 | Softronic AB ser. B | 28.3286 | n/a |\n| 14 | Corem Property Group AB ser. D | 28.2486 | n/a |\n| 15 | Holmen AB ser. A | 27.1739 | n/a |\n| 16 | KlaraBo Sverige AB ser. B | 26.5957 | n/a |\n| 17 | Fabege AB | 26.3158 | n/a |\n| 18 | CellaVision AB | 26.1780 | n/a |\n| 19 | Holmen AB ser. B | 25.9067 | n/a |\n| 20 | Viva Wine | 25.5102 | n/a |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Active Biotech AB | 1.0868 | n/a |\n| 2 | Oncopeptides AB | 1.0925 | n/a |\n| 3 | Sivers Semiconductors AB | 1.3443 | n/a |\n| 4 | Medivir AB | 1.3686 | n/a |\n| 5 | Cantargia AB | 2.5189 | n/a |\n| 6 | Anoto Group AB | 2.5445 | n/a |\n| 7 | Alligator Bioscience AB | 2.7427 | n/a |\n| 8 | Maha Capital AB | 2.9121 | n/a |\n| 9 | Episurf Medical AB B | 3.3818 | n/a |\n| 10 | Xspray Pharma AB | 3.4130 | n/a |\n| 11 | Nanologica AB | 3.5958 | n/a |\n| 12 | Nelly Group AB | 3.6179 | n/a |\n| 13 | Tobii AB | 3.6324 | n/a |\n| 14 | Actic Group AB | 3.6941 | n/a |\n| 15 | Xbrane Biopharma AB | 3.8285 | n/a |\n| 16 | Immunovia AB | 3.9448 | n/a |\n| 17 | Stillfront Group AB | 4.2517 | n/a |\n| 18 | Orexo AB | 4.3328 | n/a |\n| 19 | Viaplay Group AB ser. A | 4.6147 | n/a |\n| 20 | Gruvaktiebolaget Viscaria | 4.6232 | n/a |\n\n### Multi-factor screener\nMulti-factor momentum blends momentum with volatility-aware ranking so the result is not driven by a single return measure alone.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Investor AB ser. B | 0.9045 | 376.80 |\n| 2 | Investor AB ser. A | 0.9007 | 374.00 |\n| 3 | Telia Company | 0.8921 | 46.54 |\n| 4 | Coor Service Management Holding AB | 0.8821 | 57.80 |\n| 5 | Besqab AB Pref B | 0.8710 | 99.00 |\n| 6 | Alfa Laval AB | 0.8685 | 559.20 |\n| 7 | Svedbergs Group AB ser. B | 0.8685 | 63.90 |\n| 8 | Svolder AB ser. A | 0.8648 | 85.00 |\n| 9 | Nordnet AB | 0.8610 | 346.40 |\n| 10 | Securitas AB ser. B | 0.8573 | 170.50 |\n| 11 | Swedbank AB ser A | 0.8511 | 335.40 |\n| 12 | Inission AB ser. B | 0.8462 | 62.40 |\n| 13 | BioGaia AB ser. B | 0.8449 | 120.60 |\n| 14 | Nordea Bank Abp | 0.8387 | 173.50 |\n| 15 | Synsam AB | 0.8325 | 62.70 |\n| 16 | Industrivärden, AB ser. C | 0.8288 | 493.50 |\n| 17 | Industrivärden, AB ser. A | 0.8275 | 497.20 |\n| 18 | Prisma Properties AB | 0.8263 | 23.80 |\n| 19 | Axfood AB | 0.8226 | 321.00 |\n| 20 | Scandi Standard AB | 0.8226 | 158.60 |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Oncopeptides AB | 0.0074 | 1.40 |\n| 2 | Alligator Bioscience AB | 0.0074 | 0.27 |\n| 3 | Active Biotech AB | 0.0161 | 0.07 |\n| 4 | Xbrane Biopharma AB | 0.0199 | 8.50 |\n| 5 | Nanologica AB | 0.0211 | 0.39 |\n| 6 | Wästbygg Gruppen AB ser. B | 0.0310 | 1.27 |\n| 7 | Xspray Pharma AB | 0.0323 | 26.80 |\n| 8 | Immunovia AB | 0.0360 | 0.22 |\n| 9 | Tobii AB | 0.0422 | 1.92 |\n| 10 | Stillfront Group AB | 0.0571 | 4.72 |\n| 11 | Netel Holding AB | 0.0620 | 4.24 |\n| 12 | Fasadgruppen Group AB | 0.0720 | 21.70 |\n| 13 | Orexo AB | 0.0744 | 20.50 |\n| 14 | KDventures B | 0.0769 | 0.26 |\n| 15 | Nelly Group AB | 0.0819 | 69.35 |\n| 16 | PowerCell Sweden AB | 0.0844 | 24.10 |\n| 17 | Nobia AB | 0.0868 | 1.81 |\n| 18 | Net Insight AB ser. B | 0.0868 | 2.55 |\n| 19 | Mendus AB | 0.0931 | 4.92 |\n| 20 | Dometic Group AB | 0.0955 | 30.20 |\n\n### Residual momentum screener\nResidual momentum tries to isolate stock-specific strength after removing broad market or beta effects.\n\n### Top leaders\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Lundin Mining Corporation | 0.8893 | 277.40 |\n| 2 | Coor Service Management Holding AB | 0.8363 | 57.80 |\n| 3 | Sandvik AB | 0.8353 | 396.60 |\n| 4 | Scandi Standard AB | 0.7844 | 158.60 |\n| 5 | Hoist Finance AB | 0.7114 | 169.00 |\n| 6 | Cloetta AB ser. B | 0.6654 | 52.40 |\n| 7 | Attendo AB | 0.6183 | 107.60 |\n| 8 | Swedbank AB ser A | 0.6032 | 335.40 |\n| 9 | ABB Ltd | 0.5802 | 851.80 |\n| 10 | HANZA AB | 0.5759 | 144.40 |\n| 11 | Svedbergs Group AB ser. B | 0.5578 | 63.90 |\n| 12 | Nordea Bank Abp | 0.5566 | 173.50 |\n| 13 | Lundin Gold Inc. | 0.5487 | 756.00 |\n| 14 | Synsam AB | 0.5443 | 62.70 |\n| 15 | FM Mattsson AB ser. B | 0.5402 | 98.00 |\n| 16 | Studsvik AB | 0.5262 | 327.00 |\n| 17 | Telia Company | 0.4975 | 46.54 |\n| 18 | Tele2 AB ser. B | 0.4851 | 189.45 |\n| 19 | Besqab AB Pref B | 0.4824 | 99.00 |\n| 20 | Tele2 AB ser. A | 0.4797 | 192.00 |\n\n### Bottom laggards\n| Rank | Name | Score | Price |\n| --- | --- | --- | --- |\n| 1 | Hemnet Group AB | -1.2839 | 112.50 |\n| 2 | Latour, Investmentab. ser. B | -1.1309 | 228.20 |\n| 3 | Truecaller AB ser. B | -1.0084 | 10.96 |\n| 4 | Image Systems AB | -0.9617 | 0.95 |\n| 5 | IRLAB Therapeutics AB ser. A | -0.9563 | 1.55 |\n| 6 | Precise Biometrics AB | -0.9522 | 1.72 |\n| 7 | AB Fastator | -0.8707 | 0.34 |\n| 8 | SWECO AB ser. B | -0.8020 | 147.00 |\n| 9 | SWECO AB ser. A | -0.7951 | 146.50 |\n| 10 | Profoto Holding AB | -0.7923 | 8.04 |\n| 11 | AFRY AB | -0.7671 | 128.70 |\n| 12 | BE Group AB | -0.7441 | 26.00 |\n| 13 | Vitec Software Group AB ser. B | -0.7329 | 251.00 |\n| 14 | KABE Group AB ser. B | -0.7286 | 183.50 |\n| 15 | Arctic Paper S.A. | -0.7278 | 20.39 |\n| 16 | Garo AB | -0.7193 | 11.52 |\n| 17 | Transtema Group AB | -0.7108 | 4.40 |\n| 18 | Stockwik Förvaltning AB | -0.6923 | 17.60 |\n| 19 | MEKO AB | -0.6754 | 70.40 |\n| 20 | KDventures B | -0.6679 | 0.26 |\n\n## Macro context notes\n- `HY_OAS`: HY_OAS means High Yield Option-Adjusted Spread. It tracks the extra yield demanded for lower-quality corporate debt, and wider spreads usually point to rising stress or tighter financial conditions.\n- `VIX`: VIX is the CBOE Volatility Index. It is an options-implied volatility measure for US equities, and sharp increases usually signal more fear and demand for downside protection.\n\n## VIX chart\n![VIX chart](./vix_chart.svg)\n\n## Weekend context / what happened\n- Here are the 3 big things we're watching in the stock market this week - CNBC: Week ahead Monday, April 13 Existing Home Sales at 10 a.m. ET Before the bell: Goldman Sachs (GS) , Fastenal (FAST) Tuesday, April 14 Producer Price Index at 8:30 a.m. [web_weekend_context_1]\n- S&P 7,000: Why stocks surged to a new record - Axios: Zoom in: Starting last week, hedge funds were net buyers of U.S. stocks for the first time in eight weeks, driven by both closing out short bets (where investors bet that stocks will fall) and adding new long positions, per data from Gol... [web_weekend_context_2]\n- Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments - Investopedia: Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments. Major stock indexes were mixed and little changed in early trading Wednesday, with the S&... [web_weekend_context_3]\n\n## What to watch this week\n- AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St.: Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) stock is up 6% today, rising from $258.12 to $274 and change as a... [web_what_to_watch_2]\n- WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks: WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. Wells Fargo stock was down on Tuesday alongside its latest earnings report. [web_what_to_watch_3]\n\n## Risks / uncertainty\n- Leadership remains concentrated rather than broad-based\n- Primary market and macro snapshot endpoints are unavailable\n- Data gaps reduce confidence in the weekly base case\n- Market snapshot unavailable: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/market-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")\n- Regime fallback unavailable: HTTPStatusError(\"Server error '500 ' for url 'http://192.168.1.71:8080/api/regime/composite/latest'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500\")\n- Macro snapshot unavailable: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/macro-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")\n\n## What would change my mind\n- Leadership broadens beyond the current narrow set of leaders\n- Signal contradictions dominate the bullish signal mix\n- Macro fallback data worsens via wider credit spreads or higher volatility\n\n## Sources\n- [market_snapshot] Market snapshot API (market_api) - Market snapshot API failed: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/market-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\") - http://192.168.1.71:8080/api/v1/market-snapshot\n- [macro_snapshot] Macro snapshot API (macro_api) - Primary macro snapshot API failed, fallback macro sources were attempted: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/macro-snapshot'\\nFor more information check: https://developer.mo... - http://192.168.1.71:8080/api/v1/macro-snapshot\n- [regime_composite_latest] Latest composite regime (macro_api) - Latest regime composite request failed: HTTPStatusError(\"Server error '500 ' for url 'http://192.168.1.71:8080/api/regime/composite/latest'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTT... - http://192.168.1.71:8080/api/regime/composite/latest\n- [external_hy_oas] External series HY_OAS (macro_api) - External series HY_OAS returned 27 points. - http://192.168.1.71:8080/api/external-data?seriesName=HY_OAS\n- [external_unemployment_claims] External series UNEMPLOYMENT_CLAIMS (macro_api) - External series UNEMPLOYMENT_CLAIMS returned 0 points. - http://192.168.1.71:8080/api/external-data?seriesName=UNEMPLOYMENT_CLAIMS\n- [external_ism_pmi] External series ISM_PMI (macro_api) - External series ISM_PMI returned 0 points. - http://192.168.1.71:8080/api/external-data?seriesName=ISM_PMI\n- [external_vix] External series VIX (macro_api) - External series VIX returned 26 points. - http://192.168.1.71:8080/api/external-data?seriesName=VIX\n- [sector_rotation] Sector rotation API (sector_rotation_api) - Sector rotation API returned 52 instruments for weekly analysis. - http://192.168.1.71:8080/api/v1/sector-rotation/weekly\n- [momentum_time_series] Time-series momentum screener (momentum_api) - Momentum screen 'time_series' succeeded. - http://192.168.1.71:8080/api/v1/screen/tsmom\n- [momentum_price] Price momentum screener (momentum_api) - Momentum screen 'price' succeeded. - http://192.168.1.71:8080/api/v1/screen/price-momentum\n- [momentum_low_volatility] Low-volatility screener (momentum_api) - Momentum screen 'low_volatility' succeeded. - http://192.168.1.71:8080/api/v1/screen/low-volatility\n- [momentum_multi_factor] Multi-factor screener (momentum_api) - Momentum screen 'multi_factor' succeeded. - http://192.168.1.71:8080/api/v1/screen/multi-factor\n- [momentum_residual] Residual momentum screener (momentum_api) - Momentum screen 'residual' succeeded. - http://192.168.1.71:8080/api/v1/screen/residual-momentum\n- [signals_api] Signals API (signals_api) - Signals API returned 99 active stock signals. - http://192.168.1.71:8080/api/v1/signals\n- [web_weekend_context_1] Here are the 3 big things we're watching in the stock market this week - CNBC (web) - Week ahead Monday, April 13 Existing Home Sales at 10 a.m. - https://www.cnbc.com/2026/04/12/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html\n- [web_weekend_context_2] S&P 7,000: Why stocks surged to a new record - Axios (web) - Zoom in: Starting last week, hedge funds were net buyers of U.S. - https://www.axios.com/2026/04/15/stocks-iran-consumer-trump\n- [web_weekend_context_3] Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments - Investopedia (web) - Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments. - https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-04152026-11950191\n- [web_what_to_watch_2] AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St. (web) - Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. - https://247wallst.com/investing/2026/04/16/amd-gains-6-ahead-of-may-earnings-is-the-ai-chip-challenger-finally-ready-to-rival-nvidia/\n- [web_what_to_watch_3] WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks (web) - WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. - https://www.tipranks.com/news/wfc-earnings-wells-fargo-stock-slips-on-mixed-q1-results\n"
 }

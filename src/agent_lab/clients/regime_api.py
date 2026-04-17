@@ -5,7 +5,7 @@ from typing import Any
 
 import httpx
 
-from agent_lab.config import Settings
+from agent_lab.core.settings import Settings
 
 
 def fetch_latest_regime(settings: Settings) -> dict[str, Any]:

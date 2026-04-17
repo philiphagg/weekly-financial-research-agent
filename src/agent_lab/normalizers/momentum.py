@@ -3,8 +3,8 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import Any
 
-from agent_lab.research_schemas import MomentumObservation, MomentumSummary
-from agent_lab.momentum_configs import DEFAULT_MOMENTUM_REQUESTS
+from agent_lab.normalizers.momentum_configs import DEFAULT_MOMENTUM_REQUESTS
+from agent_lab.workflow.schemas import MomentumObservation, MomentumSummary
 
 
 STRATEGY_TYPE_TO_MOMENTUM_TYPE = {

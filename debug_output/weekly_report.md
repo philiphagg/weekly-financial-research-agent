@@ -1,12 +1,12 @@
 # Weekly Stock Market Science Report
 
 Week: 2026-W16
-Generated: 2026-04-17T08:31:00+00:00
+Generated: 2026-04-17T08:53:08+00:00
 
 ## Executive summary
 - Constructive risk appetite with concentrated leadership
 - HY OAS latest reading is 2.85 on 2026-04-15. VIX latest reading is 18.17 on 2026-04-15.
-- Constructive risk appetite with leadership concentrated in AI/crypto/blockchain and related ETFs. Favor strong momentum names and leading themes (e.g., AI, blockchain, quantum computing) while avoiding laggards such as Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (e.g., AMD earnings, Wells Fargo results). Note that data gaps in market snapshot, regime composite, and macro snapshot limit conviction. (sources: market_snapshot, macro_snapshot, sector_rotation, signals_api, momentum_time_series, momentum_price, momentum_low_volatility, momentum_multi_factor, momentum_residual, web_weekend_context_1, web_weekend_context_2, web_weekend_context_3, web_what_to_watch_2, web_what_to_watch_3)
+- Maintain exposure to the strongest momentum names (Coor Service Management Holding AB, Telia Company, Besqab AB Pref B) and overweight leading themes such as VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, and Franklin AI, Metaverse and Blockchain UCITS ETF. Remain cautious on laggards like Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (AMD earnings, WFC results). (sources: market_snapshot, macro_snapshot, sector_rotation, signals_api, momentum_time_series, momentum_price, momentum_low_volatility, momentum_multi_factor, momentum_residual, web_weekend_context_1, web_weekend_context_2, web_weekend_context_3, web_what_to_watch_2, web_what_to_watch_3)
 
 ## Facts
 - Leadership is concentrated in VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, Franklin AI, Metaverse and Blockchain UCITS ETF; while weakness remains in Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, OSEBX Oslo.
@@ -20,7 +20,7 @@ Generated: 2026-04-17T08:31:00+00:00
 - Initial claims fallback data is missing; ISM PMI fallback data is missing; VIX latest reading is 18.17.
 
 ## Positioning for the week
-- Constructive risk appetite with leadership concentrated in AI/crypto/blockchain and related ETFs. Favor strong momentum names and leading themes (e.g., AI, blockchain, quantum computing) while avoiding laggards such as Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (e.g., AMD earnings, Wells Fargo results). Note that data gaps in market snapshot, regime composite, and macro snapshot limit conviction.
+- Maintain exposure to the strongest momentum names (Coor Service Management Holding AB, Telia Company, Besqab AB Pref B) and overweight leading themes such as VanEck Crypto and Blockchain Innovators UCITS ETF, VanEck Quantum Computing UCITS ETF, and Franklin AI, Metaverse and Blockchain UCITS ETF. Remain cautious on laggards like Xtrackers Europe Defence Technologies UCITS ETF 1C, Global X Cloud Computing UCITS ETF, and OSEBX Oslo ahead of this week's catalysts (AMD earnings, WFC results).
 - Favor areas showing strong relative weekly leadership and positive short-term trend, and stay cautious with themes or instruments showing negative week-anchor returns and weak 1-2 week follow-through.
 
 ## How to read the momentum strategies
@@ -376,17 +376,17 @@ Residual momentum tries to isolate stock-specific strength after removing broad 
 - WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks: WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. Wells Fargo stock was down on Tuesday alongside its latest earnings report. [web_what_to_watch_3]
 
 ## Risks / uncertainty
-- Leadership remains concentrated with narrow breadth, raising concentration and idiosyncratic risk.
-- Data gaps: market snapshot, regime composite/latest, and macro snapshot endpoints unavailable.
-- Momentum signals show conflicting readings across definitions, tempering conviction.
+- Leadership remains concentrated rather than broad-based
+- Primary market and macro snapshot endpoints are unavailable
+- Data gaps reduce confidence in the weekly base case
 - Market snapshot unavailable: HTTPStatusError("Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/market-snapshot'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404")
 - Regime fallback unavailable: HTTPStatusError("Server error '500 ' for url 'http://192.168.1.71:8080/api/regime/composite/latest'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500")
 - Macro snapshot unavailable: HTTPStatusError("Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/macro-snapshot'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404")
 
 ## What would change my mind
-- Leadership broadens beyond the current narrow set of leaders.
-- Momentum signals align across definitions with no meaningful contradictions.
-- Macro backdrop deteriorates (e.g., wider credit spreads or rising volatility) prompting a more cautious stance.
+- Leadership broadens beyond the current narrow set of leaders
+- Signal contradictions dominate the bullish signal mix
+- Macro fallback data worsens via wider credit spreads or higher volatility
 
 ## Sources
 - [market_snapshot] Market snapshot API (market_api) - Market snapshot API failed: HTTPStatusError("Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/market-snapshot'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404") - http://192.168.1.71:8080/api/v1/market-snapshot

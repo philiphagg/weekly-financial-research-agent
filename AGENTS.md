@@ -4,7 +4,7 @@
 dokumentera ditt arbete i ~/dev/developer-notex/weekly-research-agent.md
 
 -  en logg med ändringar
-- skapa sidor för att beskriva vad som gjorts
+- skapa sidor och mappar för att beskriva vad som gjorts, vad som är kvar och vad appen föreställer.
 - indexera i index.md
 
 ## Projektets mål

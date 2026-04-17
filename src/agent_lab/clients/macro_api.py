@@ -4,7 +4,7 @@ from typing import Any
 
 import httpx
 
-from agent_lab.config import Settings
+from agent_lab.core.settings import Settings
 
 
 def fetch_macro_snapshot(settings: Settings) -> dict[str, Any]:

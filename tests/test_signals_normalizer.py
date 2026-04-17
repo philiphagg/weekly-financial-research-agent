@@ -1,4 +1,4 @@
-from agent_lab.signals_normalizer import normalize_signals, summarize_signals
+from agent_lab.normalizers.signals import normalize_signals, summarize_signals
 
 
 def test_normalize_signals_from_service_richness_shape() -> None:

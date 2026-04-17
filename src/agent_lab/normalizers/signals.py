@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import Any
 
-from agent_lab.research_schemas import SignalObservation, SignalSummary
+from agent_lab.workflow.schemas import SignalObservation, SignalSummary
 
 
 def _safe_float(value: Any) -> float | None:

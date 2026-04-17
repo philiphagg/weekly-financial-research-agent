@@ -4,8 +4,8 @@ from typing import Any
 
 import httpx
 
-from agent_lab.config import Settings
-from agent_lab.momentum_configs import DEFAULT_MOMENTUM_REQUESTS
+from agent_lab.core.settings import Settings
+from agent_lab.normalizers.momentum_configs import DEFAULT_MOMENTUM_REQUESTS
 
 
 def _post_screening(

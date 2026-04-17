@@ -4,11 +4,11 @@ from typing import Any
 
 import httpx
 
-from agent_lab.config import Settings
+from agent_lab.core.settings import Settings
 
 
-def fetch_market_snapshot(settings: Settings) -> dict[str, Any]:
-    url = f"{settings.market_api_base_url}/api/v1/market-snapshot"
+def fetch_sector_rotation(settings: Settings) -> dict[str, Any]:
+    url = f"{settings.sector_rotation_api_base_url}/api/v1/sector-rotation/weekly"
 
     try:
         with httpx.Client(timeout=20.0, trust_env=False) as client:
@@ -21,9 +21,9 @@ def fetch_market_snapshot(settings: Settings) -> dict[str, Any]:
             "url": url,
             "data": payload,
             "source": {
-                "source_id": "market_snapshot",
-                "source_type": "market_api",
-                "title": "Market snapshot API",
+                "source_id": "sector_rotation",
+                "source_type": "sector_rotation_api",
+                "title": "Sector rotation API",
                 "url": url,
             },
         }
@@ -33,9 +33,9 @@ def fetch_market_snapshot(settings: Settings) -> dict[str, Any]:
             "url": url,
             "error": repr(exc),
             "source": {
-                "source_id": "market_snapshot",
-                "source_type": "market_api",
-                "title": "Market snapshot API",
+                "source_id": "sector_rotation",
+                "source_type": "sector_rotation_api",
+                "title": "Sector rotation API",
                 "url": url,
             },
         }

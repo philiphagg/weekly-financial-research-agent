@@ -8,30 +8,30 @@ from typing import Any
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END, START, StateGraph
 
-from agent_lab.config import Settings
-from agent_lab.reporting import render_weekly_report
-from agent_lab.momentum_normalizer import (
+from agent_lab.clients.macro_api import fetch_macro_snapshot
+from agent_lab.clients.market_api import fetch_market_snapshot
+from agent_lab.clients.momentum_api import fetch_all_momentum
+from agent_lab.clients.regime_api import fetch_external_series, fetch_latest_regime
+from agent_lab.clients.sector_rotation_api import fetch_sector_rotation
+from agent_lab.clients.signals_api import fetch_signals
+from agent_lab.clients.web_search import fetch_web_search
+from agent_lab.core.settings import Settings
+from agent_lab.normalizers.momentum import (
     MOMENTUM_STRATEGY_EXPLANATIONS,
     build_momentum_screener_tables,
     normalize_all_momentum,
     summarize_momentum,
 )
-from agent_lab.research_schemas import (
+from agent_lab.normalizers.sector_rotation import normalize_sector_rotation, summarize_sector_rotation
+from agent_lab.normalizers.signals import normalize_signals, summarize_signals
+from agent_lab.rendering.report import render_weekly_report
+from agent_lab.workflow.schemas import (
     ResearchPacket,
     ResearchState,
     SourceSummary,
     WebContextItem,
     WebContextSummary,
 )
-from agent_lab.sector_rotation_normalizer import normalize_sector_rotation, summarize_sector_rotation
-from agent_lab.signals_normalizer import normalize_signals, summarize_signals
-from agent_lab.tools.macro_api import fetch_macro_snapshot
-from agent_lab.tools.market_api import fetch_market_snapshot
-from agent_lab.tools.momentum_api import fetch_all_momentum
-from agent_lab.tools.regime_api import fetch_external_series, fetch_latest_regime
-from agent_lab.tools.sector_rotation_api import fetch_sector_rotation
-from agent_lab.tools.signals_api import fetch_signals
-from agent_lab.tools.web_search import fetch_web_search
 
 
 def _utc_now_iso() -> str:

@@ -5,7 +5,7 @@ from typing import Any
 import httpx
 from langchain.tools import tool
 
-from agent_lab.config import Settings
+from agent_lab.core.settings import Settings
 
 
 def fetch_signals(settings: Settings) -> dict[str, Any]:

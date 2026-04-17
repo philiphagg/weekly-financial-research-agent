@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from agent_lab.charts import (
+from agent_lab.rendering.charts import (
     write_line_chart_svg,
     write_sector_rotation_grid_svg,
     write_sector_rotation_scatter_svg,
