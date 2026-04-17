@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <rect width="900" height="320" fill="#f8fafc"/>
+  <text x="70" y="24" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">VIX - recent fallback series</text>
+  <line x1="70" y1="40" x2="70" y2="275" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="70" y1="275" x2="870" y2="275" stroke="#94a3b8" stroke-width="1"/>
+  <polyline fill="none" stroke="#b91c1c" stroke-width="3" points="70.0,173.0 102.0,218.7 134.0,169.6 166.0,61.2 198.0,136.5 230.0,147.3 262.0,160.5 294.0,102.7 326.0,104.6 358.0,174.1 390.0,195.7 422.0,144.3 454.0,163.7 486.0,112.4 518.0,40.0 550.0,141.3 582.0,154.7 614.0,167.3 646.0,161.7 678.0,131.2 710.0,220.8 742.0,250.1 774.0,255.0 806.0,257.1 838.0,271.4 870.0,275.0"/>
+  <text x="60" y="44" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">30.61</text>
+  <text x="60" y="161.5" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">24.39</text>
+  <text x="60" y="279" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">18.17</text>
+  <text x="70" y="305" font-family="Arial, sans-serif" font-size="12" fill="#475569">2026-03-03</text>
+  <text x="470.0" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">2026-03-20</text>
+  <text x="870" y="305" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">2026-04-15</text>
+</svg>

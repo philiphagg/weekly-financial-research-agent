@@ -1,0 +1,18 @@
+[project]
+name = "ai-agent-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "langchain>=1.2.15",
+    "langchain-openai>=1.1.13",
+    "langgraph>=1.1.6",
+    "langsmith>=0.7.32",
+    "pydantic>=2.13.1",
+    "pytest>=8.4.2",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
+    "tavily-python>=0.7.23",
+]

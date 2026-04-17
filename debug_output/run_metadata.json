@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-04-17T08:30:18+00:00",
+  "completed_at_utc": "2026-04-17T08:31:00+00:00",
+  "week_label": "2026-W16",
+  "model": "gpt-5-nano",
+  "source_count": 19,
+  "source_summary_count": 19,
+  "data_gap_count": 3,
+  "data_gaps": [
+    "Market snapshot unavailable: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/market-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")",
+    "Regime fallback unavailable: HTTPStatusError(\"Server error '500 ' for url 'http://192.168.1.71:8080/api/regime/composite/latest'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500\")",
+    "Macro snapshot unavailable: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/macro-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")"
+  ]
+}

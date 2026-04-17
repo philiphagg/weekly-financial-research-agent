@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+  <rect width="980" height="560" fill="#f8fafc"/>
+  <text x="90" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Sector rotation scatter</text>
+  <text x="90" y="46" font-family="Arial, sans-serif" font-size="12" fill="#475569">X-axis: week-anchor return. Y-axis: one-week return.</text>
+  <rect x="520.0" y="55.0" width="430.0" height="222.5" fill="#dcfce7" opacity="0.65"/>
+  <text x="530.0" y="73.0" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#334155">Leading</text>
+  <rect x="520.0" y="277.5" width="430.0" height="222.5" fill="#fef3c7" opacity="0.65"/>
+  <text x="530.0" y="295.5" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#334155">Weakening</text>
+  <rect x="90.0" y="277.5" width="430.0" height="222.5" fill="#fee2e2" opacity="0.65"/>
+  <text x="100.0" y="295.5" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#334155">Lagging</text>
+  <rect x="90.0" y="55.0" width="430.0" height="222.5" fill="#dbeafe" opacity="0.65"/>
+  <text x="100.0" y="73.0" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#334155">Improving</text>
+  <line x1="90" y1="277.5" x2="950" y2="277.5" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="520.0" y1="55" x2="520.0" y2="500" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="90" y="55" width="860" height="445" fill="none" stroke="#94a3b8" stroke-width="1"/>
+  <text x="490.0" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">Week-anchor return</text>
+  <text x="24" y="280.0" transform="rotate(-90 24 280.0)" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">One-week return</text>
+  <circle cx="807.7" cy="157.4" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="815.7" y="149.4" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">ARK Artificial Intelligence &amp; Robotics UCITS ETF</text>
+  <circle cx="520.0" cy="277.5" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="528.0" y="269.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Aluminium</text>
+  <circle cx="415.9" cy="340.9" r="5.5" fill="#b91c1c" fill-opacity="0.9"/>
+  <text x="423.9" y="332.9" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Brent spot</text>
+  <circle cx="640.6" cy="198.1" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="648.6" y="190.1" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">CoinShares XBT Provider Bitcoin Tracker One</text>
+  <circle cx="790.3" cy="146.2" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="798.3" y="138.2" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">CoinShares XBT Provider Ether Tracker One</text>
+  <circle cx="849.0" cy="144.5" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="857.0" y="136.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Franklin AI, Metaverse and Blockchain UCITS ETF</text>
+  <circle cx="772.6" cy="160.1" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="780.6" y="152.1" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Global X Artificial Intelligence UCITS ETF</text>
+  <circle cx="575.6" cy="325.8" r="5.5" fill="#b45309" fill-opacity="0.9"/>
+  <text x="583.6" y="317.8" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Global X Cloud Computing UCITS ETF</text>
+  <circle cx="416.5" cy="353.4" r="5.5" fill="#b91c1c" fill-opacity="0.9"/>
+  <text x="424.5" y="345.4" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Global X Natural Gas ETF</text>
+  <circle cx="556.8" cy="239.2" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="564.8" y="231.2" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Guld</text>
+  <circle cx="537.6" cy="266.6" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="545.6" y="258.6" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Invesco Bloomberg Commodity ex-Agriculture UCITS ETF</text>
+  <circle cx="520.0" cy="277.5" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="528.0" y="269.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Koppar</text>
+  <circle cx="668.3" cy="197.8" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="676.3" y="189.8" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">L&amp;G ROBO Global Robotics and Automation UCITS ETF</text>
+  <circle cx="520.0" cy="277.5" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="528.0" y="269.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Nickel</text>
+  <circle cx="417.5" cy="342.2" r="5.5" fill="#b91c1c" fill-opacity="0.9"/>
+  <text x="425.5" y="334.2" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OLJA AVA</text>
+  <circle cx="607.3" cy="225.1" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="615.3" y="217.1" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMX Copenhagen 25</text>
+  <circle cx="561.4" cy="261.6" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="569.4" y="253.6" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMX Helsingfors 25</text>
+  <circle cx="579.5" cy="238.4" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="587.5" y="230.4" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMX Nordic PI</text>
+  <circle cx="661.3" cy="186.7" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="669.3" y="178.7" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMX Stockholm Consumer Products and Services PI</text>
+  <circle cx="616.5" cy="224.1" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="624.5" y="216.1" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMX Stockholm Financial Services PI</text>
+  <circle cx="604.3" cy="219.6" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="612.3" y="211.6" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMX Stockholm Mid Cap GI</text>
+  <circle cx="585.1" cy="233.8" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="593.1" y="225.8" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMX Stockholm PI GI</text>
+  <circle cx="733.0" cy="170.2" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="741.0" y="162.2" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMX Stockholm Small Cap PI</text>
+  <circle cx="583.8" cy="234.7" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="591.8" y="226.7" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OMXSPI</text>
+  <circle cx="441.3" cy="306.9" r="5.5" fill="#b91c1c" fill-opacity="0.9"/>
+  <text x="449.3" y="298.9" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">OSEBX Oslo</text>
+  <circle cx="578.5" cy="197.7" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="586.5" y="189.7" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Platina</text>
+  <circle cx="520.0" cy="277.5" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="528.0" y="269.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">SWE TECH</text>
+  <circle cx="717.4" cy="142.1" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="725.4" y="134.1" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Silver</text>
+  <circle cx="542.2" cy="266.8" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="550.2" y="258.8" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Stockholm Real Estate PI</text>
+  <circle cx="950.0" cy="55.0" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="958.0" y="47.0" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">VanEck Crypto and Blockchain Innovators UCITS ETF</text>
+  <circle cx="524.9" cy="295.5" r="5.5" fill="#b45309" fill-opacity="0.9"/>
+  <text x="532.9" y="287.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">VanEck Defense UCITS ETF</text>
+  <circle cx="912.8" cy="87.8" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="920.8" y="79.8" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">VanEck Quantum Computing UCITS ETF</text>
+  <circle cx="698.1" cy="142.4" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="706.1" y="134.4" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">VanEck Semiconductor UCITS ETF</text>
+  <circle cx="764.1" cy="183.1" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="772.1" y="175.1" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">VanEck Uranium and Nuclear Technologies UCITS ETF</text>
+  <circle cx="696.2" cy="181.3" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="704.2" y="173.3" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">WisdomTree Copper</text>
+  <circle cx="639.2" cy="342.4" r="5.5" fill="#b45309" fill-opacity="0.9"/>
+  <text x="647.2" y="334.4" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">WisdomTree Cybersecurity UCITS ETF</text>
+  <circle cx="543.2" cy="257.5" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="551.2" y="249.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">WisdomTree Physical Gold ETC</text>
+  <circle cx="708.8" cy="156.9" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="716.8" y="148.9" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">WisdomTree Physical Silver ETC</text>
+  <circle cx="561.8" cy="245.0" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="569.8" y="237.0" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">XACT OMXS30 ESG</text>
+  <circle cx="644.3" cy="205.6" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="652.3" y="197.6" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">XACT Svenska Småbolag</text>
+  <circle cx="578.5" cy="241.6" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="586.5" y="233.6" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">XACT Sverige</text>
+  <circle cx="492.5" cy="287.2" r="5.5" fill="#b91c1c" fill-opacity="0.9"/>
+  <text x="500.5" y="279.2" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">Xtrackers Europe Defence Technologies UCITS ETF 1C</text>
+  <circle cx="707.3" cy="176.5" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="715.3" y="168.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">iShares AI Infrastructure UCITS ETF</text>
+  <circle cx="518.3" cy="272.7" r="5.5" fill="#1d4ed8" fill-opacity="0.9"/>
+  <text x="526.3" y="264.7" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">iShares Diversified Commodity Swap UCITS ETF</text>
+  <circle cx="674.2" cy="164.4" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="682.2" y="156.4" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">iShares S&amp;P 500 Consumer Discretionary Sector</text>
+  <circle cx="370.6" cy="339.5" r="5.5" fill="#b91c1c" fill-opacity="0.9"/>
+  <text x="378.6" y="331.5" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">iShares S&amp;P 500 Consumer Staples Sector</text>
+  <circle cx="549.3" cy="261.7" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="557.3" y="253.7" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">iShares S&amp;P 500 Financials Sector</text>
+  <circle cx="465.5" cy="286.9" r="5.5" fill="#b91c1c" fill-opacity="0.9"/>
+  <text x="473.5" y="278.9" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">iShares S&amp;P 500 Industrials Sector</text>
+  <circle cx="740.9" cy="162.4" r="5.5" fill="#15803d" fill-opacity="0.9"/>
+  <text x="748.9" y="154.4" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">iShares S&amp;P 500 Information Technology Sector</text>
+  <circle cx="392.6" cy="325.4" r="5.5" fill="#b91c1c" fill-opacity="0.9"/>
+  <text x="400.6" y="317.4" font-family="Arial, sans-serif" font-size="11" fill="#0f172a">iShares S&amp;P 500 Utilities Sector</text>
+  <text x="90" y="525" font-family="Arial, sans-serif" font-size="11" fill="#475569">Negative</text>
+  <text x="950" y="525" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#475569">Positive</text>
+  <text x="78" y="500" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#475569">Negative</text>
+  <text x="78" y="65" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#475569">Positive</text>
+</svg>

@@ -1,0 +1,135 @@
+[
+  {
+    "source_id": "market_snapshot",
+    "title": "Market snapshot API",
+    "source_type": "market_api",
+    "summary": "Market snapshot API failed: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/market-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")",
+    "url": "http://192.168.1.71:8080/api/v1/market-snapshot"
+  },
+  {
+    "source_id": "regime_composite_latest",
+    "title": "Latest composite regime",
+    "source_type": "macro_api",
+    "summary": "Latest regime composite request failed: HTTPStatusError(\"Server error '500 ' for url 'http://192.168.1.71:8080/api/regime/composite/latest'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500\")",
+    "url": "http://192.168.1.71:8080/api/regime/composite/latest"
+  },
+  {
+    "source_id": "external_hy_oas",
+    "title": "External series HY_OAS",
+    "source_type": "macro_api",
+    "summary": "External series HY_OAS returned 27 points.",
+    "url": "http://192.168.1.71:8080/api/external-data?seriesName=HY_OAS"
+  },
+  {
+    "source_id": "external_unemployment_claims",
+    "title": "External series UNEMPLOYMENT_CLAIMS",
+    "source_type": "macro_api",
+    "summary": "External series UNEMPLOYMENT_CLAIMS returned 0 points.",
+    "url": "http://192.168.1.71:8080/api/external-data?seriesName=UNEMPLOYMENT_CLAIMS"
+  },
+  {
+    "source_id": "external_ism_pmi",
+    "title": "External series ISM_PMI",
+    "source_type": "macro_api",
+    "summary": "External series ISM_PMI returned 0 points.",
+    "url": "http://192.168.1.71:8080/api/external-data?seriesName=ISM_PMI"
+  },
+  {
+    "source_id": "external_vix",
+    "title": "External series VIX",
+    "source_type": "macro_api",
+    "summary": "External series VIX returned 26 points.",
+    "url": "http://192.168.1.71:8080/api/external-data?seriesName=VIX"
+  },
+  {
+    "source_id": "macro_snapshot",
+    "title": "Macro snapshot API",
+    "source_type": "macro_api",
+    "summary": "Primary macro snapshot API failed, fallback macro sources were attempted: HTTPStatusError(\"Client error '404 ' for url 'http://192.168.1.71:8080/api/v1/macro-snapshot'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\")",
+    "url": "http://192.168.1.71:8080/api/v1/macro-snapshot"
+  },
+  {
+    "source_id": "sector_rotation",
+    "title": "Sector rotation API",
+    "source_type": "sector_rotation_api",
+    "summary": "Sector rotation API returned 52 instruments for weekly analysis.",
+    "url": "http://192.168.1.71:8080/api/v1/sector-rotation/weekly"
+  },
+  {
+    "source_id": "momentum_time_series",
+    "title": "Time-series momentum screener",
+    "source_type": "momentum_api",
+    "summary": "Momentum screen 'time_series' succeeded.",
+    "url": "http://192.168.1.71:8080/api/v1/screen/tsmom"
+  },
+  {
+    "source_id": "momentum_price",
+    "title": "Price momentum screener",
+    "source_type": "momentum_api",
+    "summary": "Momentum screen 'price' succeeded.",
+    "url": "http://192.168.1.71:8080/api/v1/screen/price-momentum"
+  },
+  {
+    "source_id": "momentum_low_volatility",
+    "title": "Low-volatility screener",
+    "source_type": "momentum_api",
+    "summary": "Momentum screen 'low_volatility' succeeded.",
+    "url": "http://192.168.1.71:8080/api/v1/screen/low-volatility"
+  },
+  {
+    "source_id": "momentum_multi_factor",
+    "title": "Multi-factor screener",
+    "source_type": "momentum_api",
+    "summary": "Momentum screen 'multi_factor' succeeded.",
+    "url": "http://192.168.1.71:8080/api/v1/screen/multi-factor"
+  },
+  {
+    "source_id": "momentum_residual",
+    "title": "Residual momentum screener",
+    "source_type": "momentum_api",
+    "summary": "Momentum screen 'residual' succeeded.",
+    "url": "http://192.168.1.71:8080/api/v1/screen/residual-momentum"
+  },
+  {
+    "source_id": "signals_api",
+    "title": "Signals API",
+    "source_type": "signals_api",
+    "summary": "Signals API returned 99 active stock signals.",
+    "url": "http://192.168.1.71:8080/api/v1/signals"
+  },
+  {
+    "source_id": "web_weekend_context_1",
+    "title": "Here are the 3 big things we're watching in the stock market this week - CNBC",
+    "source_type": "web",
+    "summary": "Week ahead Monday, April 13 Existing Home Sales at 10 a.m. ET Before the bell: Goldman Sachs (GS) , Fastenal (FAST) Tuesday, April 14 Producer Price Index at 8:30 a.m.",
+    "url": "https://www.cnbc.com/2026/04/12/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html"
+  },
+  {
+    "source_id": "web_weekend_context_2",
+    "title": "S&P 7,000: Why stocks surged to a new record - Axios",
+    "source_type": "web",
+    "summary": "Zoom in: Starting last week, hedge funds were net buyers of U.S. stocks for the first time in eight weeks, driven by both closing out short bets (where investors bet that stocks will fall) and adding new long positions, per data from Gol...",
+    "url": "https://www.axios.com/2026/04/15/stocks-iran-consumer-trump"
+  },
+  {
+    "source_id": "web_weekend_context_3",
+    "title": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments - Investopedia",
+    "source_type": "web",
+    "summary": "Stock Market Today: Major Indexes Mixed in Early Trading; S&P 500 Nears All-Time High; Oil Prices Tick Lower as Investors Assess Iran Developments. Major stock indexes were mixed and little changed in early trading Wednesday, with the S&...",
+    "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-04152026-11950191"
+  },
+  {
+    "source_id": "web_what_to_watch_2",
+    "title": "AMD Gains 6% Ahead of May Earnings: Is the AI Chip Challenger Finally Ready to Rival NVIDIA? - 24/7 Wall St.",
+    "source_type": "web",
+    "summary": "Advanced Micro Devices (AMD) stock surged today on France collaboration and $60M Wayve investment announcements. Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) stock is up 6% today, rising from $258.12 to $274 and change as a...",
+    "url": "https://247wallst.com/investing/2026/04/16/amd-gains-6-ahead-of-may-earnings-is-the-ai-chip-challenger-finally-ready-to-rival-nvidia/"
+  },
+  {
+    "source_id": "web_what_to_watch_3",
+    "title": "WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results - TipRanks",
+    "source_type": "web",
+    "summary": "WFC Earnings: Wells Fargo Stock Slips on Mixed Q1 Results. Wells Fargo stock was down on Tuesday alongside its latest earnings report.",
+    "url": "https://www.tipranks.com/news/wfc-earnings-wells-fargo-stock-slips-on-mixed-q1-results"
+  }
+]
